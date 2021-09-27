@@ -1633,9 +1633,11 @@ print("Counter = ",counter)
 
 """
 
-
+#Matplotlib graphs
+"""
 import numpy as np
 import matplotlib.pyplot as plt
+
 
 
 
@@ -1654,3 +1656,4 @@ plt.plot(x1,y1,'*-.r',ms=10,mec='y',linewidth='2')
 plt.grid()
 plt.show(block=True)
 
+"""
