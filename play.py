@@ -1657,3 +1657,15 @@ plt.grid()
 plt.show(block=True)
 
 """
+#Internet Basics : URL
+mystring = "https://www.youtube.com/watch?v=8DvywoWv6fI&t=35402s"
+
+protocol = mystring.split("//")
+web_addr = protocol[1].split('/')
+
+host = web_addr[0]
+document = web_addr[1]
+
+print(f'Protocol : {protocol[0]}')
+print(f'Host : {host}')
+print(f'Document : {document}')
