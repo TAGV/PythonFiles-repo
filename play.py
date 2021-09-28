@@ -1066,9 +1066,9 @@ print(pprint.pformat(list2Dict))
 
 """
 
-tboard = {'tl':' ','tm':' ','tr':' ',
-          'ml':' ','mm':' ','mr':' ',
-          'll':' ','lm':' ','lr':' '}
+tboard = {'tl':1,'tm':2,'tr':3,
+          'ml':4,'mm':5,'mr':6,
+          'll':7,'lm':8,'lr':9}
 
 
 player1 = None
@@ -1116,11 +1116,11 @@ def toss():
         return player2
 
 def printboard(board):
-    print("\t\t\t\t",board['tl'] + '|' + board['tm'] + '|' + board['tr'])
+    print("\t\t\t\t",str(board['tl']) + '|' + str(board['tm']) + '|' + str(board['tr']))
     print("\t\t\t\t","-+-+-")
-    print("\t\t\t\t",board['ml'] + '|' + board['mm'] + '|' + board['mr'])
+    print("\t\t\t\t",str(board['ml']) + '|' + str(board['mm']) + '|' + str(board['mr']))
     print("\t\t\t\t","-+-+-")
-    print("\t\t\t\t",board['ll'] + '|' + board['lm'] + '|' + board['lr'])
+    print("\t\t\t\t",str(board['ll']) + '|' + str(board['lm']) + '|' + str(board['lr']))
 
 
 welcomeMessg()
