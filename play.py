@@ -1658,6 +1658,7 @@ plt.show(block=True)
 
 """
 #Internet Basics : URL
+"""
 mystring = "https://www.youtube.com/watch?v=8DvywoWv6fI&t=35402s"
 
 protocol = mystring.split("//")
@@ -1669,3 +1670,43 @@ document = web_addr[1]
 print(f'Protocol : {protocol[0]}')
 print(f'Host : {host}')
 print(f'Document : {document}')
+
+"""
+
+#Any() and Zip() function
+"""
+mystringTrue = "This is me"
+mystringFalse = ""
+mylistTrue = [1,2,3,4]
+mylistFalse = [False,False,0]
+mydictTrue = {'t':1,'k':2}
+mydictFalse = {}
+mytupTrue = (3,'t')
+mytupFalse = ()
+
+
+print(any(mystringTrue))
+print(any(mystringFalse))
+print(any(mylistTrue))
+print(any(mylistFalse))
+print(any(mydictTrue))
+print(any(mydictFalse))
+print(any(mytupTrue))
+print(any(mytupFalse))
+print("=====================================================================")
+#Zip Function
+#The zip object yields n-length tuples, where n is the number of iterables
+#passed as positional arguments to zip()
+
+name = ['tanmay','rohit','samson']
+age = [20,30,40]
+
+z = list(zip(name,age))
+print(z)
+
+for n,a in z:
+    print(n,a)
+
+print(list(zip('abcdefg', range(7), range(4))))
+
+"""
