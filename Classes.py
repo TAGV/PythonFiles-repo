@@ -36,6 +36,7 @@ a1 = Auto('tanmay',25)
 #a1.pr()
 #a1.pr()
 #a1.pr()
+#a1.pr()
 
 
 for it in range(5):
