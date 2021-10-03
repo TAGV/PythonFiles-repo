@@ -1710,3 +1710,12 @@ for n,a in z:
 print(list(zip('abcdefg', range(7), range(4))))
 
 """
+
+#args : Add as many positional arguments to the function
+
+def addnum(*args):
+    print(args)
+    result = sum(args)
+    print(result)
+
+addnum(1,2,3,4,5,6,7,8,9,10)
