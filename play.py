@@ -1711,11 +1711,14 @@ print(list(zip('abcdefg', range(7), range(4))))
 
 """
 
-#args : Add as many positional arguments to the function
+#args & kwargs
+#*args and **kwargs let you write functions with a variable number of arguments in Python
+#*args collects extra positional arguments as a tuple. **kwargs collects the extra keyword arguments as a dictionary
 
-def addnum(*args):
+def addnum(*args,**kwargs):
     print(args)
+    print(kwargs)
     result = sum(args)
     print(result)
 
-addnum(1,2,3,4,5,6,7,8,9,10)
+addnum(1,2,3,4,5,6,7,8,9,10,key_1 = 3,key_2 = '4')
