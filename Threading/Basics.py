@@ -1,5 +1,5 @@
 #Intro to Multithreading
-
+import threading
 import time
 from threading import *
 
@@ -31,9 +31,12 @@ time.sleep(0.2)                     #This is used to unsync the threads and make
 t2.start()
 time.sleep(0.2)
 t3.start()
+print("No of active threads at current time = ",threading.active_count())
+
 
 t1.join()                           # Wait until the thread terminates
 t2.join()
 t3.join()
 
+print("No of active threads at current time = ",threading.active_count())
 print("Stop")
