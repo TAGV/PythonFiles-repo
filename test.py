@@ -7,10 +7,10 @@ while True:
         break
     except EOFError:
         #print ("EOFError")
-        print(item)
+        #print(item)
         break
 
 
-
+print(item)
 #sys.exit()
 
