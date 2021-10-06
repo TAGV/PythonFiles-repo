@@ -26,6 +26,9 @@ t1 = Thread_1()
 t2 = Thread_2()
 t3 = Thread_3()
 
+print("t1 = ",id(t1))               #printing the memory locn of the threads
+print("t2 = ",id(t2))
+print("t3 = ",id(t3))
 t1.start()
 time.sleep(0.2)                     #This is used to unsync the threads and make them run in parallel
 t2.start()
