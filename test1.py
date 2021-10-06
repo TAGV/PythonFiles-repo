@@ -1,3 +1,4 @@
+item = None
 while True:
     try:
         item = input("Enter  ypur name\n")
@@ -8,6 +9,5 @@ while True:
         break
 
 
-print(item)
 
 
