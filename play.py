@@ -1718,7 +1718,13 @@ print(list(zip('abcdefg', range(7), range(4))))
 def addnum(*args,**kwargs):
     print(args)
     print(kwargs)
-    result = sum(args)
+    result = 0
+    #result = sum(args)
+    for i in args:
+        result += i
     print(result)
+
+    for k,v in kwargs.items():
+        print(k,v)
 
 addnum(1,2,3,4,5,6,7,8,9,10,key_1 = 3,key_2 = '4')
