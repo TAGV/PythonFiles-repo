@@ -1,0 +1,5 @@
+- Debugging with more helpful and precise error messages
+- Using structural pattern matching to work with data structures
+- Adding more readable and more specific type hints
+- Checking the length of sequences when using zip()
+- Calculating multivariable statistics
