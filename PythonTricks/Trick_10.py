@@ -10,6 +10,7 @@ my_car = Car('AV','red','dark',30)
 print(my_car.color)
 print(my_car.name)
 print(my_car.mileage)
+print(my_car[2])
 print(my_car)
 
 for it in my_car:
