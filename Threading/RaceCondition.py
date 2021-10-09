@@ -12,10 +12,13 @@ def changeCounter(lock):
 
     #lock.acquire()                              #Lock is aquired, hence program will not switch to other thread
     with lock:                                  #using 'with' keyword we can avoid acquire and release
+        print("Current Thread running : ",threading.currentThread())
         local_counter = counter
         local_counter += 1
         #time.sleep(0.1)                               #Program switches to another thread
         counter = local_counter
+        print("Value of counter : ",counter)
+        print("=============================")
     #lock.release()
 
 lock = Lock()
@@ -28,10 +31,10 @@ thread_2 = threading.Thread(target=changeCounter,args=(lock,))
 
 
 thread_1.start()
-print(threading.enumerate())
+#print(threading.enumerate())
 #time.sleep(1)                      #With this sleep you can resolve the race condition, but this is not an effective approach
 thread_2.start()
-print(threading.enumerate())
+#print(threading.enumerate())
 
 
 
