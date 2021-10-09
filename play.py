@@ -1715,6 +1715,7 @@ print(list(zip('abcdefg', range(7), range(4))))
 #*args and **kwargs let you write functions with a variable number of arguments in Python
 #*args collects extra positional arguments as a tuple. **kwargs collects the extra keyword arguments as a dictionary
 
+""""
 def addnum(*args,**kwargs):
     print(args)
     print(kwargs)
@@ -1728,3 +1729,26 @@ def addnum(*args,**kwargs):
         print(k,v)
 
 addnum(1,2,3,4,5,6,7,8,9,10,key_1 = 3,key_2 = '4')
+"""
+
+#Sets
+
+my_set = {1,2,3,4,5,5,4,4,4,5,5,5}
+my_set.add(38)
+print(my_set)
+
+print(type(my_set))
+print(dir(my_set))
+
+set_1 = {1,2,3,4,5}
+set_2 = {2,3,4,5,6}
+set_3 = {4,5,6,7,8}
+
+#All operations are performed in respect to set 1
+print(set_1.union(set_2,set_3))
+print(set_1.intersection(set_2,set_3))
+print(set_1.difference(set_3))
+print(set_1.discard(5))
+print(set_1)
+print(set_1.update(set_2))
+print(set_1)
