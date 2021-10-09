@@ -1,8 +1,5 @@
 #Count & String
 
-#mystring = 'racadabiiiiaiiii'
-
-
 def findsubstring(mystring,substring):
     print(f'Found substring "{substring}" at index : {mystring.find(substring)}')
     print(f'The total count of substring "{substring}" in string "{mystring}" is : {mystring.count(substring)}')
