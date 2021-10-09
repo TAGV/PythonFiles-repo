@@ -1732,7 +1732,7 @@ addnum(1,2,3,4,5,6,7,8,9,10,key_1 = 3,key_2 = '4')
 """
 
 #Sets
-
+"""
 my_set = {1,2,3,4,5,5,4,4,4,5,5,5}
 my_set.add(38)
 print(my_set)
@@ -1752,3 +1752,13 @@ print(set_1.discard(5))
 print(set_1)
 print(set_1.update(set_2))
 print(set_1)
+"""
+
+
+
+
+
+
+
+
+
