@@ -1755,15 +1755,39 @@ print(set_1)
 """
 
 #String Replace method
-
+"""
 my_string = 'My python code for python python python strings !!!'
 newstring = my_string.replace('python','Python',-1)
 print(my_string)
 print(newstring)
+"""
 
+#List Comprehensions
 
+mylist = [i*i for i in range(10) if i%2==0]
+print(mylist)
 
+def cube(m):
+    return m*m*m
 
+cubes = [cube(i) for i in range(10) if i%2==0]
+print(cubes)
 
+a = [1,2,3,4,5]
+b = [0 if i < 3 else i for i in a]
+print(b)
+
+#Set Comprehension
+mystring = "Welcome to this edition of Python practice"
+unique_vowels = {i for i in mystring if i in 'aeiou'}
+print(unique_vowels)
+
+#Dictionary Comprehensions
+my_dict = {i : i*i*i for i in range(10) if i % 2 == 0}
+print(my_dict)
+
+#Nested 2d lists
+matrix2d = [[i*j for i in range(5)] for j in range(3)]
+print(matrix2d)
 
 
