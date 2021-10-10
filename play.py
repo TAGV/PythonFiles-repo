@@ -1754,7 +1754,12 @@ print(set_1.update(set_2))
 print(set_1)
 """
 
+#String Replace method
 
+my_string = 'My python code for python python python strings !!!'
+newstring = my_string.replace('python','Python',-1)
+print(my_string)
+print(newstring)
 
 
 
