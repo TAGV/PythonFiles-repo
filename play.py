@@ -1786,6 +1786,10 @@ print(unique_vowels)
 my_dict = {i : i*i*i for i in range(10) if i % 2 == 0}
 print(my_dict)
 
+#Tuples
+tupes = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+print(tupes)
+
 #Nested 2d lists
 matrix2d = [[i*j for i in range(5)] for j in range(3)]
 print(matrix2d)
