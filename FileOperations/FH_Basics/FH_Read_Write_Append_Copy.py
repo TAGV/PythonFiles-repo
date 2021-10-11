@@ -22,10 +22,11 @@
 print("===============Operations on a Text data file==========")
 
 fcopy = open("EmptyTest", 'r')
-print(fcopy.read())
+#print(fcopy.read())
 
-fwrite_file = open("newfile.txt", 'w')
+fwrite_file = open("newtestfile.txt", 'w')
 for data in fcopy:
+    #print(data,end="")
     fwrite_file.write(data)
 
 print("===============Operations on a binary data file==========")
@@ -33,7 +34,7 @@ print("===============Operations on a binary data file==========")
 fimgrd = open("IMG.jpg", 'rb')                       #Open the image file in binary format
 #print(fimgrd.read())
 
-fimgpst = open("image1.jpg", 'wb')                    #Create a new file in binary format
+fimgpst = open("MyPic.jpg", 'wb')                    #Create a new file in binary format
 for data in fimgrd:
     #print(data,end="")
     fimgpst.write(data)
