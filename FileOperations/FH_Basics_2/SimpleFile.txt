@@ -1,0 +1,18 @@
+Deploying your static website on Amazon S3 is a cost-effective solution that is often cheaper than a traditional hosting provider.
+I migrated my website to Amazon S3 years ago and have been saving money ever since!
+This is a super fun project AWS newbies and introduces you to several core services like Amazon S3 and Amazon CloudFront.
+
+You’ll create an Amazon S3 bucket to hold your static website files and an Amazon CloudFront distribution to serve your website globally.
+ Amazon Route 53 will manage your domain name, and AWS Certificate Manager will provide a valid SSL/TLS certificate.
+
+Services used
+
+Amazon S3 
+Amazon CloudFront 
+Amazon Route 53 
+AWS Certificate Manager r 
+Prerequisites 
+
+You’ll need a few things to get started with this project:
+
+Static website made up of HTML, CSS, JavaScript, etc.
