@@ -1763,7 +1763,7 @@ print(newstring)
 """
 
 #List Comprehensions
-
+"""
 mylist = [i*i for i in range(10) if i%2==0]
 print(mylist)
 
@@ -1778,6 +1778,7 @@ b = [0 if i < 3 else i for i in a]
 print(b)
 
 #Set Comprehension
+
 mystring = "Welcome to this edition of Python practice"
 unique_vowels = {i for i in mystring if i in 'aeiou'}
 print(unique_vowels)
@@ -1793,5 +1794,30 @@ print(tupes)
 #Nested 2d lists
 matrix2d = [[i*j for i in range(5)] for j in range(3)]
 print(matrix2d)
+"""
 
+#Matrix Printing
 
+days = 1
+
+while days < 8:
+    print(str(days)+":",end=" ")
+    hours = 1
+    while hours < 25:
+        print(hours,end=" ")
+        hours = hours + 1
+    days = days+1
+    print()
+
+print("==================================================================================")
+
+daysOfWeek = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+hoursofDay = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+
+for dw in daysOfWeek:
+    print(dw + ':',end=" ")
+    hours = 1
+    for hours in hoursofDay:
+        print(hours,end=" ")
+        hours = hours + 1
+    print()
