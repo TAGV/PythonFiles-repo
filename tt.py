@@ -13,3 +13,10 @@ print(tboard['1'])
 tboard = {'tl':1,'tm':2,'tr':3,
           'ml':4,'mm':5,'mr':6,
           'll':7,'lm':8,'lr':9}
+
+#import os
+#os.makedirs("RootFolder")
+#os.makedirs("Root/Dir/Test")
+#fhand = open("Root/Dir/Test/twitch.py",'w')
+#os.remove("Root/Dir/Test/twitch.py"
+
