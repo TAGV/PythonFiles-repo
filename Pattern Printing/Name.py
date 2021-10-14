@@ -1,4 +1,4 @@
-#Name Printing
+#Name Printing Vertical
 
 for row in range(5):
     for col in range(5):
