@@ -1,3 +1,5 @@
+#Printing the name in horizontal order
+
 rowlist = [1,2,3,4,5]
 collist_t = [1,2,3,4,5,6]
 collist_a = [1,2,3,4,5,6]
@@ -5,8 +7,7 @@ collist_n = [1,2,3,4,5,6]
 collist_m = [1,2,3,4,5,6]
 collist_y = [1,2,3,4,5,6]
 
-print("Name Starts".center(100,"="))
-print()
+print("Name Starts".center(100,"=")+"\n")
 for row in rowlist:
     for col in collist_t:
         if (row == 1 and col != 6) or (col == 3):
@@ -66,5 +67,4 @@ for row in rowlist:
             print(" ", end=" ")
 
     print()
-print()
-print("Name Ends".center(100,"="))
+print("\n"+"Name Ends".center(100,"="))
