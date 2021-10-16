@@ -1,7 +1,7 @@
 #Class variables are variables that we set inside a class, and are shared among all instances
 
 class Employee:
-    employee_count = 0                                              #Class variable
+    employee_count = 0                                              #Class/Static variable
     def __init__(self,name,age,number):
         self.name = name                                            #Instance Variable
         self.age = age
@@ -51,3 +51,8 @@ print("Total No of employees : ",my_emp_list[1].employee_count)
 print("Total No of employees : ",my_emp_list[2].employee_count)
 
 #Employee.name      #Not Allowed
+
+#Use of isinstance function
+
+checkinstance = isinstance(emp1,Employee)
+print(checkinstance)
