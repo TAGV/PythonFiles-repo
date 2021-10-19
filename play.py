@@ -1823,7 +1823,7 @@ for dw in daysOfWeek:
     print()
 """
 
-# map,filter function : basics
+# Map,filter function : basic Introduction
 
 """
 mlist = [1,2,5,8,9,12,5,2,3,-1,-5,0]
