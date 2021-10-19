@@ -1825,6 +1825,7 @@ for dw in daysOfWeek:
 
 # map,filter function : basics
 
+"""
 mlist = [1,2,5,8,9,12,5,2,3,-1,-5,0]
 
 # map(function,sequence)
@@ -1844,7 +1845,7 @@ my_map_sum = tuple(map(lambda x,y:x+y,mlist,mlist_new))
 print(my_map_sum)
 print(list(my_map_sum))
 
-
+"""
 
 
 
