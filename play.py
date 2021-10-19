@@ -1,11 +1,11 @@
-#print("   /" *2)
-#age = 20;
-#print("The age =",age)
+# print("   /" *2)
+# age = 20;
+# print("The age =",age)
 
-#name = input("What is ur name ? ")
-#print("Hello " + name)
+# name = input("What is ur name ? ")
+# print("Hello " + name)
 
-#SimpleCalculator = Type COnversion
+# SimpleCalculator = Type COnversion
 """
 First_Number = float(input("Enter 1st number = "))
 #print("First No = " + First_Number)
@@ -15,7 +15,7 @@ Second_Number = float(input("Enter 2nd number = "))
 sum = (First_Number) + (Second_Number)
 print("Sum: " + str(sum))
 """
-
+"""
 #Strings
 import copy
 import math
@@ -27,7 +27,7 @@ import sys
 import time
 
 import pyperclip
-
+"""
 """"
 mystring = "This is for Python"
 print(mystring.upper())
@@ -38,7 +38,7 @@ print(mystring.lower())
 print(mystring.center(20).upper())
 print(mystring)
 """
-#Arithmatic Operators
+# Arithmatic Operators
 
 """"
 print(10/3)
@@ -47,7 +47,7 @@ print(10 ** 3)
 print(10 % 3)
 
 """
-#Comparison Operators
+# Comparison Operators
 
 """
 print(3>2)
@@ -57,7 +57,7 @@ print(3!=2)
 
 """
 
-#Logical Operators
+# Logical Operators
 
 """
 price = 10
@@ -67,7 +67,7 @@ print(price > 10 or price == 10)
 print(not price == 10)
 
 """
-#Exercise
+# Exercise
 
 """
 weight = float(input("Weight: "))
@@ -84,7 +84,7 @@ else:
 
 """
 
-#While Loops
+# While Loops
 
 """
 i = 1
@@ -98,7 +98,7 @@ while j >= 1:
     j -= 1
 
 """
-#Lists
+# Lists
 
 """
 names = ["tan","man","lan","cat","bat"]
@@ -117,7 +117,7 @@ print(names)
 
 """
 
-#List Methods
+# List Methods
 
 """
 nos = [1,2,3,4,5]
@@ -134,7 +134,7 @@ print(nos)
 
 """
 
-#For Loop
+# For Loop
 
 """
 nos = [1,2,3,4,5]
@@ -144,7 +144,7 @@ for input in nos:
 
 """
 
-#Range function
+# Range function
 
 """
 
@@ -1822,3 +1822,30 @@ for dw in daysOfWeek:
         hours = hours + 1
     print()
 """
+
+# map,filter function : basics
+
+mlist = [1,2,5,8,9,12,5,2,3,-1,-5,0]
+
+# map(function,sequence)
+
+my_map = map(lambda x:x+2,mlist)
+print(list(my_map))
+
+# filter(function,sequence)
+
+my_filter = filter(lambda x:x%2==0,mlist)
+print(list(my_filter))
+
+print("======================================")
+
+mlist_new = [1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+my_map_sum = tuple(map(lambda x,y:x+y,mlist,mlist_new))
+print(my_map_sum)
+print(list(my_map_sum))
+
+
+
+
+
+
