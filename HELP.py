@@ -6,8 +6,8 @@ def GetHelp(method):
     help(method)
 
 while True:
-    myinput = input("Enter the function/method, you require information about.....or q to Quit? \n ")
-    if myinput == 'q':
+    myinput = input("Enter the function/method, you require information about.....or q/Q to Quit? \n ")
+    if myinput.lower() == 'q':
         sys.exit()
     GetHelp(myinput)
 
