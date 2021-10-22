@@ -20,9 +20,20 @@ tboard = {'tl':1,'tm':2,'tr':3,
 #fhand = open("Root/Dir/Test/twitch.py",'w')
 #os.remove("Root/Dir/Test/twitch.py"
 
+"""
 x = ['ab','cd']
 
 for i in range(len(x)):
     x[i] = x[i].upper()
     print(i)
 print(x)
+"""
+"""
+words = []
+
+while (word := input("Enter word: ")) != 'quit':
+    words.append(word)
+
+print(words)
+
+"""
