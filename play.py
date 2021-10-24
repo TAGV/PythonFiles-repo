@@ -1846,7 +1846,50 @@ print(my_map_sum)
 print(list(my_map_sum))
 
 """
+# is and ==
+# "==" denotes equality  (checks objects have same value)
+# "is" denotes identity of the objects (checks if they have same memory locn)
 
+a = [1,2,3]
+b = [1,2,3]
 
+if a == b:
+    print(True)
+else:
+    print(False)
+print("==============")
+if a is b:
+    print(True)
+else:
+    print(False)
+print("==============")
 
+print("Memory address before assignment")
+print(id(a))
+print(id(b))
+b = a
+print("Memory address after assignment")
+print(id(a))
+print(id(b))
+
+print("==============")
+if a == b:
+    print(True)
+else:
+    print(False)
+
+print("==============")
+if a is b:
+    print(True)
+else:
+    print(False)
+print("==============")
+
+print(a)
+print(b)
+a[0] = 9
+print(a)
+print(b)
+
+print("==============")
 
