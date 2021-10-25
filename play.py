@@ -1850,6 +1850,7 @@ print(list(my_map_sum))
 # "==" denotes equality  (checks objects have same value)
 # "is" denotes identity of the objects (checks if they have same memory locn)
 
+"""
 a = [1,2,3]
 b = [1,2,3]
 
@@ -1892,4 +1893,33 @@ print(a)
 print(b)
 
 print("==============")
+"""
 
+# Unpacking : Tuples
+# "_" is used to ignore variables
+
+a,b = (1,2)
+print(a)
+print(b)
+
+#a,b,c,d = (1,2) #ValueError: not enough values to unpack (expected 4, got 2)
+#a,b,c,d = (1,2,3,4,5)   #ValueError: too many values to unpack (expected 4)
+
+#a,b,c = (1,2,3,4,5,6,7,8,9,10)  #ValueError: too many values to unpack (expected 3)
+a,b,*c = (1,2,3,4,5,6,7,8,9,10)
+print(a)
+print(b)
+print(c)
+print("=========================")
+a,b,*c,d = (1,2,3,4,5,6,7,8,9,10)
+print(a)
+print(b)
+print(c)
+print(d)
+
+print("=========================")
+a,b,*_,d = (1,2,3,4,5,6,7,8,9,10,11,22,25,75)
+print(a)
+print(b)
+#print(c)
+print(d)
