@@ -1898,6 +1898,7 @@ print("==============")
 # Unpacking : Tuples
 # "_" is used to ignore variables
 
+"""
 a,b = (1,2)
 print(a)
 print(b)
@@ -1923,3 +1924,35 @@ print(a)
 print(b)
 #print(c)
 print(d)
+
+"""
+
+# Generators
+
+def gen():
+    for x in range(10):
+        #print(x**2)
+        yield (x**2)
+
+
+# 1st Method to print items of the generator func
+#print(list(gen()))
+
+# 2nd method using next pointer
+my_gen = gen()
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+print(next(my_gen))
+#print(next(my_gen))         # It will cause StopIteration
+
+# 3rd method : for loop
+
+for n in gen():
+    print(n,end=" ")
