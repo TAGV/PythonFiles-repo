@@ -16,5 +16,6 @@ def alphabets_gen():
         yield n
 
 print(alphabets_gen())
-for it in alphabets_gen():
+
+for it in alphabets_gen():      #iterating over generator
     print(it,end=" ")
