@@ -1929,6 +1929,7 @@ print(d)
 
 # Generators
 
+"""
 def gen():
     for x in range(10):
         #print(x**2)
@@ -1956,3 +1957,13 @@ print(next(my_gen))
 
 for n in gen():
     print(n,end=" ")
+"""
+# Iterating over integers
+
+num = 1236754127458675876849
+
+my_str = str(num)
+
+for it in my_str:
+    rev_int = int(it)
+    print(rev_int,type(rev_int))
