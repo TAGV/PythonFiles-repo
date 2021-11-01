@@ -1959,11 +1959,23 @@ for n in gen():
     print(n,end=" ")
 """
 # Iterating over integers
-
+"""
 num = 1236754127458675876849
 
 my_str = str(num)
 
-for it in my_str:
+for it in my_str[::-1]:
     rev_int = int(it)
     print(rev_int,type(rev_int))
+
+"""
+
+# Finding and printing only unique nos
+
+def uniquenos(*args):
+    mlist = []
+    for num in args:
+        mlist.append(num)
+    print(list(set(mlist)))
+
+uniquenos(1,2,3,4,5,5,5,5,55,6,2)
