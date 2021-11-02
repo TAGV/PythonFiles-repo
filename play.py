@@ -1972,6 +1972,7 @@ for it in my_str[::-1]:
 
 # Finding and printing only unique nos
 
+"""
 def uniquenos(*args):
     mlist = []
     for num in args:
@@ -1979,3 +1980,5 @@ def uniquenos(*args):
     print(list(set(mlist)))
 
 uniquenos(1,2,3,4,5,5,5,5,55,6,2)
+"""
+
