@@ -1,0 +1,1100 @@
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject
+Directories:		['django_demo', 'Threading', 'FileOperations', 'Pattern Printing', 'test_package', 'PythonGames', 'Collections', 'Database', 'Sockets', 'PythonTricks', 'GeoProject', 'Regular Expressions', 'FlaskProject', '.git', 'Generators_demo', 'JSON_demo', '.idea', 'Modules', 'Classes_testdef', 'Tkinter_Demo']
+Files:		['HELP.py', 'pyscipt.py', 'tt.py', 'Test', 'filelist.txt', 'Classes.py', 'README.md', 'requirements.txt', 'DateTime_demo.py', 'play.py', 'Scope.py', 'Python 3.10 New Features']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/django_demo
+Directories:		['django_demo']
+Files:		['manage.py', 'db.sqlite3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/django_demo/django_demo
+Directories:		['__pycache__']
+Files:		['asgi.py', 'urls.py', 'wsgi.py', '__init__.py', 'settings.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/django_demo/django_demo/__pycache__
+Directories:		[]
+Files:		['__init__.cpython-38.pyc', 'urls.cpython-38.pyc', 'settings.cpython-38.pyc', 'wsgi.cpython-38.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Threading
+Directories:		[]
+Files:		['Basics_1.py', 'RaceCondition.py', 'Basics_2.py', 'Basics.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FileOperations
+Directories:		['FH_Basics', 'FH_Basics_2']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FileOperations/FH_Basics
+Directories:		[]
+Files:		['MyPic.jpg', 'EmptyTest', 'IMG.jpg', 'FH_Read_Write_Append_Copy.py', 'newtestfile.txt']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FileOperations/FH_Basics_2
+Directories:		[]
+Files:		['FinalFiles.txt', 'RegularFile.txt', 'File_Pointers.py', 'SimpleFile.txt']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Pattern Printing
+Directories:		[]
+Files:		['InputLetterPrint.py', 'Star Pattern.py', 'Heart_Pattern.py', 'Name_Print_Horizontal.py', 'Name.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/test_package
+Directories:		['mypackage']
+Files:		['testing_site_package.py', 'package_test.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/test_package/mypackage
+Directories:		['__pycache__']
+Files:		['pack_add.py', 'pack_mult.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/test_package/mypackage/__pycache__
+Directories:		[]
+Files:		['__init__.cpython-38.pyc', 'pack_add.cpython-38.pyc', 'pack_mult.cpython-38.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/PythonGames
+Directories:		[]
+Files:		['RockPaperScissor.py', 'TicTacToe.py', 'Readme']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Collections
+Directories:		[]
+Files:		['Counter.py', 'ChainMap.py', 'defaultdictionary.py', 'NamedTuple.py', 'deque.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Database
+Directories:		[]
+Files:		['Intro.py', 'dbtest.db']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Sockets
+Directories:		[]
+Files:		['server.py', 'URLlib.py', 'client1.py', 'SimpleServer.py', 'BeautifulSoup.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/PythonTricks
+Directories:		[]
+Files:		['Trick_11.py', 'Trick_18.py', 'Trick_22.py', 'Trick_13.py', 'Trick_24.py', 'Trick_5.py', 'Trick_4.py', 'Trick_15.py', 'Trick_20.py', 'Trick_8.py', 'Trick_12.py', 'Trick_19.py', 'Trick_10.py', 'Trick_9.py', 'Trick_6.py', 'Trick_16.py', 'Trick_1.py', 'Trick_7.py', 'Trick_3.py', 'Trick_14.py', 'Trick_21.py', 'Trick_2.py', 'Trick_23.py', 'Trick_17.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/GeoProject
+Directories:		['Shapefiles']
+Files:		['GeoBasics.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/GeoProject/Shapefiles
+Directories:		[]
+Files:		['railway_tracks.cpg', 'railway_tracks.shp', 'atms.cpg', 'area_of_interest.shp', 'districts.shp', 'area_of_interest.shx', 'atms.prj', 'area_of_interest.sbn', 'railway_tracks.dbf', 'area_of_interest.CPG', 'districts.dbf', 'area_of_interest.prj', 'atms.shp', 'districts.sbx', 'districts.shx', 'atms.shx', 'districts.prj', 'districts.shp.xml', 'railway_tracks.prj', 'area_of_interest.sbx', 'districts.cpg', 'districts.sbn', 'railway_tracks.shx', 'atms.dbf', 'area_of_interest.dbf']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Regular Expressions
+Directories:		[]
+Files:		['Pattern_1.py', 'Pattern_3.py', 'Pattern_2.py', 'Match_Spaces.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FlaskProject
+Directories:		['templates', '__pycache__']
+Files:		['flasking.py', 'views.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FlaskProject/templates
+Directories:		[]
+Files:		['index.html']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/FlaskProject/__pycache__
+Directories:		[]
+Files:		['views.cpython-38.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git
+Directories:		['logs', 'hooks', 'objects', 'info', 'refs', 'branches']
+Files:		['description', 'config', 'ORIG_HEAD', 'COMMIT_EDITMSG', 'HEAD', 'packed-refs', 'FETCH_HEAD', 'index']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/logs
+Directories:		['refs']
+Files:		['HEAD']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/logs/refs
+Directories:		['remotes', 'heads']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/logs/refs/remotes
+Directories:		['origin']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/logs/refs/remotes/origin
+Directories:		[]
+Files:		['master']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/logs/refs/heads
+Directories:		[]
+Files:		['master']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/hooks
+Directories:		[]
+Files:		['pre-push.sample', 'commit-msg.sample', 'prepare-commit-msg.sample', 'pre-rebase.sample', 'pre-merge-commit.sample', 'update.sample', 'pre-commit.sample', 'pre-receive.sample', 'fsmonitor-watchman.sample', 'applypatch-msg.sample', 'pre-applypatch.sample', 'post-update.sample']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects
+Directories:		['c4', 'f8', '14', '36', '93', '1e', '66', '53', 'a2', 'd0', '37', '5e', 'da', 'b0', '83', '29', 'e8', '61', 'fe', '4c', 'df', '25', '8f', '03', 'e6', 'a5', 'ab', '0c', 'be', 'fc', 'bd', '75', '31', '63', 'a9', 'f5', 'cb', 'af', '64', 'e1', 'd5', '55', 'e9', '23', 'ef', 'b5', '96', 'c8', '4f', 'fa', 'f2', '95', '3a', 'c7', 'ca', '18', '7a', 'a6', '1f', 'c9', 'ce', '51', 'ba', 'c3', '13', '99', 'd2', '04', '88', 'e3', '06', 'ff', 'ac', '0b', 'a3', '8d', '7c', 'd7', 'e4', '9d', '60', '85', 'cf', '73', '11', '69', 'd9', '0d', '6c', 'd6', 'c1', '49', '6f', 'fb', '91', '16', '9e', '9c', 'de', '74', '84', '9f', '34', 'c0', 'info', '1c', '2d', 'b8', '08', '7f', '52', '4a', '26', '6e', '56', '3c', '01', '05', 'b2', 'b7', '8b', '80', '5a', 'ed', '40', 'd3', 'b1', '87', '90', '70', 'bc', 'd4', '7b', '47', 'pack', '0a', '94', 'd8', '79', '81', 'e2', 'f4', 'eb', '0f', '3f', '43', 'aa', '89', '50', '5f', '7e', '2f', '68', '5b', '65', '21', 'dd', '1a', '10', '9b', '6a', '3e', '19', '48', '62', '46', '4e', 'f0', 'e5', '12', '38', '8e', '82', 'b9', 'ea', 'a4', '67', '41', '28', '5d', '45', 'a8', 'cc', 'f6', 'b4', '2a', 'e0', '22', 'ec', 'db', 'c6', '0e', '71', '02', '5c', 'f1', 'ae', 'bf', '17', '27', '76', '58', 'e7', '35', 'f7', '54', '4d', '1d', '3b', 'a7', 'a1', '92', '97', 'bb', '78', '20', '3d', '7d', '39', '30', '15', '33', 'd1', 'dc', 'ee', '8c', '1b', '6d', '2c', 'fd']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c4
+Directories:		[]
+Files:		['0c5987295608e38c8c3e14dd1200f44aa7c86d', '13f9297b8407f5ffbf2084707a39519247b654', '2c48d5e8db72789f9bb5055821351d1275539b', 'fe881a08b323c4f815b80e113c2c1caca8fe47']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f8
+Directories:		[]
+Files:		['d789b2819a15b706d464d2eccaba7e7696731b', '04140d9f0e098dca5e2b30c8ae0fcfb5699cfe', '88eabec66177e06515fe473ac8c03fe2f23958', 'cfaeac378dcaffa023fa88d661c46cb761d137']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/14
+Directories:		[]
+Files:		['f2a627b73174a43aad11acee1260affbf06e8d', '78df47c7c1f413cf71a8d0dbf15454954624ce', '9cfe12a0591f640bf1dea0e9c56f811d19948d', '05496e8029795fd97dd7d0d192dbbe158d729f']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/36
+Directories:		[]
+Files:		['6501c2c73e7a39acfaf9eb3dc2b711640d2cc3', '8cd724a2800ad520a6d025705300538dfcfd88', 'ca42c3697ac5fd4b19107195f29de697285468', '097864084a97d5f39a734a8ec54298e30f9e0e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/93
+Directories:		[]
+Files:		['579f37ae5c30e008d311c76c189a4f018f9118']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1e
+Directories:		[]
+Files:		['68ec18656b7f7aa610cd096d8c3097992587b1', 'b341786641fe1f395ca3ec50bfd8c08b480b1b', '2fad93dd6fd0b9f3735ea09aec826e3a3832c7', '07c306f1e21a4665174b5aad7f74a0c8bd0344']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/66
+Directories:		[]
+Files:		['ead98e31e58a9ef9c1e077d44c6b87e2a02b3b', '0349e32f6bb387d2f55bfc6317be5ac0bbd880', 'c9006e632cfea6aa2403c918c31ef718408fed', 'c5b50a90e9523eb082856a7a258a4267220d99']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/53
+Directories:		[]
+Files:		['41d5a67a34f4fb0cab8d2c0161627d15120479']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a2
+Directories:		[]
+Files:		['5eb3cbdfe4cbec02fc95b55e7584d5c5ef9469']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d0
+Directories:		[]
+Files:		['0c112a59a27859d9f5f516242eee61129840d5', 'b13b95259ac63c6e96069aab012b40eba0bc89']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/37
+Directories:		[]
+Files:		['47b49102f0365edbd0be618ffc5489a17a2852', 'a0e9b49a7deabb21528414d39a584258240dab']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5e
+Directories:		[]
+Files:		['b9b1362bb03a26421c5b324a44fb538833885c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/da
+Directories:		[]
+Files:		['9570dd051625dfcf46efd3ba1189cc25839109', '178a79b92e74bc903ae76c162a240f382c2643']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b0
+Directories:		[]
+Files:		['233a9a6a2efcfc685af772836f3a8722f7c351']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/83
+Directories:		[]
+Files:		['9b1d6f317c1f01570fdc2bb9c08bb7a6fd90bd', 'a9269ae3172b7ba5c9cd7d70e2cb0da35b1df1', '05d025a7720016bd5a73afca9f25043f5598db']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/29
+Directories:		[]
+Files:		['442c3b00dc93b4d3e93a230c5f616416f9bc50', '1a155e9fc1265bbf397d570e2e19fb0bf2cb03', 'e24b4ab087df0b07faf0a7d7122dc242e9e38f', '29658b992e4aee78af21fc68b62fad7ddad811']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e8
+Directories:		[]
+Files:		['f8f3dcc6db7ca801163c6fc86e8a7371f24913', '5784f76d6e4dd58fc41a7a3270652be88ac174', '62fcc302679baad277f66b1aafadc36ed131b0']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/61
+Directories:		[]
+Files:		['0f073e7b4c55f858f6468288ca5e6a3003a03c', '9d026b9ba63bedc41d9b34b1068253fdb11f62', '2d872eae363eb9c0543aa63b9b72a777af9c09']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/fe
+Directories:		[]
+Files:		['926f6e291bbed1a6464801e8556f74c22be868', 'd6f5516f0175fa834899062b3f7a3865eb0173', '95f24c0d00aa7ca01add5893aa426e81234c25']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4c
+Directories:		[]
+Files:		['979b9c9b60b1c4075b8cc177ec01ef6b8f184d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/df
+Directories:		[]
+Files:		['8071b2999360fd075ef57f1d876e7ddf4d5aeb']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/25
+Directories:		[]
+Files:		['86a827d55902c33c4f6582773b57e36741f718']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8f
+Directories:		[]
+Files:		['4f6bc17c71242e3bc04dc7254b4b282597ef21', '9af1cffc21a23058ab5b5296305e40694c11c5', 'f4c08e33cec1e6746e37b2c9b69f9875823596']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/03
+Directories:		[]
+Files:		['295125193c7f932188f83bd0bc76ad8c560291']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e6
+Directories:		[]
+Files:		['9de29bb2d1d6434b8b29ae775ad8c2e48c5391', 'dce3b83017e0e8fc2525f7995c5503f34ec394', '6df0a124d469eb1c6af499d4c328a49becad19', '87ece5a8df9059b4ea521c0ec27d3b1ee31761']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a5
+Directories:		[]
+Files:		['590f2cb6f6137097f5e6e5af7c1b716de8ca0a', '40b3d5edaa2651ac60b1b97ce5862475ace8fd']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ab
+Directories:		[]
+Files:		['d7971e2796cdd53b23ded66b6d9a8b87f62152', '4b1af5a81cc78b199f8414764526df99762ce9', '099d663aaffb45639ebe334e97d373f6bc5e76', '17196e0adbb3283bb867fdb7987cdbeff54a03', '4a615928ea3ec2ca8f289aa8f4ae788aeac193']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0c
+Directories:		[]
+Files:		['4eb6d2d0d0804193e18a4bba98320be80e57f3', '376d42f05b4efe664d967bc32fdf035288116d', '7aedc5637c721e0e79397e3444e4367436bdbd']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/be
+Directories:		[]
+Files:		['7d6bdcea9641aaae0440955815662496d3e96c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/fc
+Directories:		[]
+Files:		['fbc828c9330f2d4d1eb61e91e8e7f9979d4b2b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/bd
+Directories:		[]
+Files:		['87d6df7fe8ed8e28e3e8c831b5313bd12784b6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/75
+Directories:		[]
+Files:		['a48b84ab0de3732a0aa693c25d42a25eca8714', 'c79fde1cdfd73260a9e3b76209f7ad07cfdaa6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/31
+Directories:		[]
+Files:		['694d8927968c835a7cb81a7f9508d881f560f2', 'bd696cc02a6def90957391b300af511042e630', '0aadc68281994ca5ac0608c2c6cfb8bc3ed31a', '3b76d52e7d8329dffee5d75d54be7f19ddb282']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/63
+Directories:		[]
+Files:		['1fe7aa30ca5a65cd36c31da71613fcc5cc1ce3', '9b0f2a38b584df17fca0896504b9b991923e56', '90cfbc94ae4cc5ac80e58eb6557f288551aab6', '3bb5f9a4acb518560e03fb6622431f7583d838', '04ea2e8843bd4fb1839f346fa363b7e18eeb9d', 'acadb38cee64a95378b0e44f706accad6537f5']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a9
+Directories:		[]
+Files:		['c4697d561109ea6c737f6b61433f8cfa8d545c', '6a695cecaf125edeee515babff2d7f90acd390']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f5
+Directories:		[]
+Files:		['408354726b5a61f1b9bb766959c45708de5b35', '02762337c9fe6dd7158a8f7c940a4caf36ec9a', 'a430c0c14bf8038eebf5c76e6cf4200017d618', '1a7ee0e69966ba4e2632922054e0a08cb6456b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/cb
+Directories:		[]
+Files:		['d193c36d5b98fb1edd41afd7b852bac4d70b15']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/af
+Directories:		[]
+Files:		['590dcf7672e1cb3dff42e1168fc0d9602e1e35']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/64
+Directories:		[]
+Files:		['1002d1cd7d57fe40bb3935272e4939e94f3263', '71806adda3b8e5b4290d89e610fbe6b9f6eb02', '8fb328e0d2ae83fa7507bb8311467edb77a80a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e1
+Directories:		[]
+Files:		['a97f4aebc2a72d59840942ec8a91475e06084e', '34ec58b9e3d6f2af3359686dac81b8dbfbb14b', '6a5ab6f24be096f8b5bc6de20a8f68ac787fab']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d5
+Directories:		[]
+Files:		['dad9270d5d95302d1336837d488c95690e00f3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/55
+Directories:		[]
+Files:		['513d1d9cbe18c2200630ab8c4e7c18c50c9eec', '559cdbb9c1aca4620d6b9888cecfe87d1f30b6', 'ae1ba7b012d456274633485394ad23de95f37f', '7eaddbf97cc6051b332d89cdd449d2413280b1', '4f86df109936306f7d5ea828666e2b20d4c554']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e9
+Directories:		[]
+Files:		['4a141e5e789d2a642690c03ce4f195a4166a02']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/23
+Directories:		[]
+Files:		['647516df4b953778d8935b484bdb046f0aca7d', 'e7849a2c25a3b382ee33256f45bcf92af7b71b', '9beb134a556fa80d1c6cd4e31c8e9bca9ed22e', '6e09a7d04302737cc55d1bbb40aa75d39bbfa1', '1e31652bbc7ed866cd8eac48d6221e29ce64e6', '5fc8e157d627697d01583efca604672c827afa']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ef
+Directories:		[]
+Files:		['3829016565fc70be0a623e92d4a83c4f0022ef', '5fd7a95bee55b9f16a62fb6d7ad7fa9d047931', 'c2ed64e051458e683eff707ae877423b99886d', '4d577638c5713dcff92840c0aad600557d7ac6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b5
+Directories:		[]
+Files:		['a9f5bc1a5e2962c4414840788df1840bf18030', '1f7d790ba418d927778a10e42b65a6e955e739', 'bd978108c2be363bbaef98a024e053514b8cd6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/96
+Directories:		[]
+Files:		['a35c0458f9342305a4ce958d4d75213971865c', '0db7570a73f8988a8c722a08953d003f9a979e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c8
+Directories:		[]
+Files:		['31d4284931dd4348cfd66034fd74a70f8d7d37', 'de1f399e60adeef812462ddaf14ac0a379bcce']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4f
+Directories:		[]
+Files:		['d29768a55522692906093966b7bd093fa4d361', 'f354f3a348cb80680af02a04ea1422859c208c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/fa
+Directories:		[]
+Files:		['2522f6b9948986a8b788efb32f434dfc81e103', '6019d8b1189b7f740ef3eec2e5d271d81e43bd', '9cf3ca6aea212961675937030dfe69fac44552']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f2
+Directories:		[]
+Files:		['30c88edf7adf6c26dbc325eab2fce036aeb7f4', '197492e86ae5f807e9614ce11ae28ae31142a7', 'd2b1538068ba6c0736f02c9f9fa515da94e2ff']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/95
+Directories:		[]
+Files:		['80254543ccb9549d70a852837bc65bc8df2ce2', '1396719ab3a5c1d811610c21cc28bcaa87f4fe', '24b3a209b2e8741206983da6d903a726602568']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3a
+Directories:		[]
+Files:		['6d1e2adb32aafe5a4d84b956ca13cbf6c1c697', 'd133c048f2189041151425a73485649e6c32c0', 'f62d663751af7a37fe4612f2a29bfe5f1c8d28']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c7
+Directories:		[]
+Files:		['4f3b4bd7cd78f89ea2bdfb4098a63648d96773', '8c90653de00ece5f2670c640b0bd7edb07cf11']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ca
+Directories:		[]
+Files:		['4b5721d9fb2c99db6cdc8975cd13f3b0d02b3a', '05bb4e0764d71b2995e2e32c75ddf94b4dc9e9', '5d47655e2711964439d915521c49eeae358fd4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/18
+Directories:		[]
+Files:		['6f7b1de6eab2218f6b769322a7a5f4d0ecfbbc', '8ff74d55f3e26deae501b5302274a42992b5d5']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7a
+Directories:		[]
+Files:		['4b94900d912a1c7fa8ff0dfd846825953ae69b', 'd9851db71a2dbb5462f45379dd1079a30c0487', 'e2104ff16e242b27c87d8ce2cbb947344bc214', 'a1ba5882c0c4097de5542f12e8f163dc559925']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a6
+Directories:		[]
+Files:		['54b180b102a57e61cfbea4ed930f6fd32733ea', '92774cee40a6bfe2c7a3beba6d6202b0f0823e', 'b58f0a8b36affd6f5caeaf93af02d9820de01b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1f
+Directories:		[]
+Files:		['80f210d05a03b8e897307f168d47f1dac44b45']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c9
+Directories:		[]
+Files:		['997994ff0fdbe09a22feb4c2cf03d170408a28']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ce
+Directories:		[]
+Files:		['a4c5f7cf77c258a7a48723d00c38ceca7b1b1f', 'dcbe5b38b63fe4ac314318791e9737879b4b99']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/51
+Directories:		[]
+Files:		['af781bbd052029c9ef08d6e3cd3c11dfa7ef21', '9c84403f4858052e17d73b6fb288f4d606f2f9', '255bcd91e5b6dab9d8150035d477c8f2bab97a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ba
+Directories:		[]
+Files:		['381027d1981911fbab41791960203c3d0208fa', 'e2f1cd2fc7a7aa73dd3a5484b381df1a868885', 'd5eaed59c745f167a3327ecfb012a3fd345118']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c3
+Directories:		[]
+Files:		['b621473840f96f6c161e5f58eb37e39daaf734', '149134cbeaafc906cbc917fcd110adf27e3032', 'fe9aec94c17b01426958e78e9b38112abee3ba']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/13
+Directories:		[]
+Files:		['95ba50c70da04a05b2ad67c37951797f802613', '84b1dd8ae073fd0326755e4a62f649ccee25fd', '19aad7f978ce25798c5ef3278a750d5742f5a4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/99
+Directories:		[]
+Files:		['034ef179f2c90d5d28d92116a84c2b2bb1d202', '0433c67d6407503bc149f6f925936f1f4f69ef', '9f25873e095b3ff0dedbf589803f16ee9cb832', '82c6e06290d34865d03418ea1734a3868060c9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d2
+Directories:		[]
+Files:		['0e39e6be4c66722bd8db474ae86ea2d74e4b71', 'b8be9936b978dbeee67ee475788bc846ce6b97', '60ed5db20b900934e7abe290082038119cd46b', '91b1d3e32c3f8e3de788803b2d4ef38685a9e1', 'e475349ef9ac87a4be0b0d0a2bb5a0a13c40c9', 'a7ee8833fb7f5246d4571bcdb39f9db5a4c575']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/04
+Directories:		[]
+Files:		['0ec213027e569ef188d71a2b14a11f9d5a29ad']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/88
+Directories:		[]
+Files:		['c3ed3fd6c9ceeb87fa56ff10b1875f30373adb']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e3
+Directories:		[]
+Files:		['dcdcc23cbd9047d9c15455202f9a233b3c26a4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/06
+Directories:		[]
+Files:		['4a3e59e6da95130eeb41ab075c88a050c4d96a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ff
+Directories:		[]
+Files:		['f6eddbd65129c7b42ac85874fed7dd6abb374e', '52a8317f37679eca2ef5ae9ea0f2eba4cc7e54', '53fd394e59274997cbd1f5d9a45ac6242960f7', '4b86df2ff35a3b629ed5b136ee330d51962c6c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ac
+Directories:		[]
+Files:		['39350ca28ad95bef56f55c76bc6c8ebbae8349', '8f74d922706de16edc529930b39c0feed30dae', '7fa95d7552f13eba587c5507c5f6f7ef28feb9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0b
+Directories:		[]
+Files:		['b4fd5d49413840a3ff3439b40033fa1b6d11be', '8999d3fc553bb181bb533fb426e1ab75684248', 'ddf52f74fba2ad3172dfeabb12a241617179b4', 'e03818d654262806eb4e5506484d323a6b41b7']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a3
+Directories:		[]
+Files:		['bc1c0a9adcf5503027a76ddf6ef1c4ce7ea3c0', 'a5edc1a6e095117db1a63477f0d274e49dea2d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8d
+Directories:		[]
+Files:		['8b0719105d536544f5b8417ab8a74c47e62a32', '72de11fe4ce12a7b206f762209ae0768234c09', '717816522597f70fcdd2664b45a75bbbab8ffc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7c
+Directories:		[]
+Files:		['00aa039640b75ef0a65b54119537fae46a3b1a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d7
+Directories:		[]
+Files:		['bbf09d3b13c7c1b2ae327015fdaf408af03940', '030945dc4c542226e4b154e4545c4904f0840d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e4
+Directories:		[]
+Files:		['f94d50810f22d5ca9e8f515f44b63fe2acb7a0', 'cc627b88e057fc4619e74ebf210ce9048e5835']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/9d
+Directories:		[]
+Files:		['ca6af8e1c4e31de9a16faa5e41c10a68d41856', '2e103186545af37c3ea5a1ac60b3e967d2288f', '48df4bd8c64146f861102f71300fe6ded9f8d3', 'e3e385185da9ee4f0cd1747472514386c67b00']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/60
+Directories:		[]
+Files:		['e5745419286ba71f6eff774c8bd0cebd23a4fc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/85
+Directories:		[]
+Files:		['af5771b10e5161bfdb23ffe7a1842280e53fa1', 'b32293c985a2670cfa17e77aed6e3a3d92f9c5']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/cf
+Directories:		[]
+Files:		['6a8fcfe39de560eed14c84a144b1e915da7804', 'f268e274cf51648aa885406059ea8e4de9ea28']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/73
+Directories:		[]
+Files:		['15190ff73f65f1fffcec231739f4a26651b2a3', 'd7130211c16a7218d74f06b84456c2f1e22e1a', '93864fc491f7b15ddebee12dc62d373ae4ac53', '8111892c2a3131715285c15f7826300375bd57', 'b7bb0f4c466ab688039098e1ad6b8d9c1d83a6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/11
+Directories:		[]
+Files:		['5bf77cdda29000b5026bd3dbf2e18ae97abeb4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/69
+Directories:		[]
+Files:		['7d8d588e920b20506dd51fd692d0a19135b932', 'e321a056a737a7c830224f0ec63955417cf32b', 'e4b77b3496460be2f65e1ca97f365f9d1f6a86']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d9
+Directories:		[]
+Files:		['a53344b1eb0148506551f4cc5cb907d354faf3', '6b126a16f7410edb7cb16824602f14ff8dce00', 'e0f9a3bfe0e38308c08f9d84e55512066a3516']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0d
+Directories:		[]
+Files:		['e69d785f8e4de2bb408620670054dea007d5d9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/6c
+Directories:		[]
+Files:		['cf7d484c075850e2204b5c295d90ad6ada1719', '2de64ccb344266021e74dcbd5005a52dd62e6c', '2be20c04204fd767b58b6872ffc795521c61a6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d6
+Directories:		[]
+Files:		['113223dc8a89ef37318f207a4346feb9d77c4c', '8a4e09f0a9be8927512ce8d96fc50b585dee19', '538dca76f82d9db0cb50569e021a16d1a8d49f', '143cbba8eb54e89df35c9b61bb5b64c5424bea']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c1
+Directories:		[]
+Files:		['bd473bbacf33cddd6f025cf3ef48bbf7558df5', '2c31d39d6e30c938defe68541f00ac04ecc590', '0177173b37fa0bbdb7ee28e8f5d2b1974889a8']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/49
+Directories:		[]
+Files:		['499f50169445de0dd54dc03045233c4bb72aaa', 'c467c20fc7a7ac3eaa403234d79a95d9b9fb87']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/6f
+Directories:		[]
+Files:		['3bdd8bb596f0c73c795e6edfe0c76efa456b35', 'edfd479e59c67792d197c0aa5d91f3428b279d', 'b1cbe3e6b59dd8304a98732b907533c96db751', '07ea133921318ba0afc75ed3ce0a644b3bfde4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/fb
+Directories:		[]
+Files:		['d17abf7836392277a25ee73b66f66a5595980e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/91
+Directories:		[]
+Files:		['d87bc1d851f622f8a18f80ffcddba88a4572d8', 'd41b3e86dddae6a9cace19deebdfe69bf853ab', '96f7d74b33700c8fa275ee451c5c961ac9ac2c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/16
+Directories:		[]
+Files:		['7444ef68fca9816bbd8e849b1a3253559f2cd9', '7a5c55ca761192b33c4353552f3efa72139945']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/9e
+Directories:		[]
+Files:		['350e80b3329ccc9e205a2db5d83add99e01d64', 'e052e77f3598db4c0f01db6f54581575f1f896', '96c55f3b5b5a28ee3ad10b468febe9ea77125d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/9c
+Directories:		[]
+Files:		['31374fb2a86096dfbb42fbbe8f892509326d79', 'b3c439458cc974294743f9f836d2c7c29005a0', '39c4468219a78cc2fdbedb5b8603f675b78894', '7b9a70ba467cf3266cabd22c7f234770b4e9eb', '5367b0bcbf8e7051810ec7cb09a72c37854a8b', '2f7c1fef19678e5f9d5c8aceda003ea9192f7e', '22ade5c5882ddfd29d0e46f14063eb26ca1b2b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/de
+Directories:		[]
+Files:		['f7329cb29097db904ba8213113ff0eb5b29e8d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/74
+Directories:		[]
+Files:		['801be129cc226e713bfe6a8331265cc4726f9f', 'ebca97d20d2bcf984dcf2d3bb714999c3660ed', '25ab7ee963ed3d5dedf3916389212fbe8b4287', '8623479516fc614dd63de49520a5ff4c1d84ec']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/84
+Directories:		[]
+Files:		['d15be6d08a0897a617ecaa487023ec5176197d', 'aa9f10914477fbe46088bc0eb8538900bbbc77', '0b74303a2eddd8c6a7ff7d54d05e4e7d44b60a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/9f
+Directories:		[]
+Files:		['4e816870d3b457bb9903de8a42faf4eec33102', '86451d14749960abbd0915e5c8c8166cece994', '2918a00baa9b21678dd57dc5a22c4e9987d584']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/34
+Directories:		[]
+Files:		['281dff01fb4200fb0700fbeb4a2197176d1987', '3deda401707b4b9f8e800573936798b51fbeab']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c0
+Directories:		[]
+Files:		['bac8be87ba5d5148714358fa1e0f97f27f1418', 'eb40e06442f2e0137f1e127234789c58ab76b2']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/info
+Directories:		[]
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1c
+Directories:		[]
+Files:		['8ee832aaf59963d200c5a1b34ab57b704273c4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/2d
+Directories:		[]
+Files:		['a65eebc09229694cf0d7750d2f5c4ffcf1bc60', 'cfd11579f4a5853a57e12cfbe711b4de458785']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b8
+Directories:		[]
+Files:		['62f19f0edae28af6178da2cce876c64c2ad693', 'e0a799a91938029e5dd6fa5ccf5d660e63ade2']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/08
+Directories:		[]
+Files:		['5df2d1cee65435d55a69aabd8defb6a617926d', '0d2e88064890d0eaafa7ee666564055cb617a2', '5ce26dd2a03855ac234e1bf084466e25a1f04f', '96d2de84401d09d7bfa59ef129d4ec0f1f6d12']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7f
+Directories:		[]
+Files:		['a17aa2acade38cd8eb4f61909cdcf4b03858ab']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/52
+Directories:		[]
+Files:		['44a402bd8b34736859c9c8e9e5b073e3ba0b64', '684395915431d266fd82915090eb22f0ac36aa', '50e5115c16e22c842623664bc8066dcbd326cd', '5fd4361e58d02070ec5fc0a74e05a5f041a7ef']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4a
+Directories:		[]
+Files:		['65860759cbe413c708db5ae3234d4233c2fe55', 'cdb3d0bae585b61086d49fa72e057dbc66ace0']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/26
+Directories:		[]
+Files:		['31b9c77d6338d8ccb4b4c655ad8b8db9536f6a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/6e
+Directories:		[]
+Files:		['03939b796396c0a6eb4394496a4ca99e8184ed', '544b6251351ae69c157e0b91505ddfcda9f8b3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/56
+Directories:		[]
+Files:		['44bf94ac04b6974355d85b6da76e0607195326', '8709cf22cb67403f302f67b65610a8f6df9862', '0de94f8de57efb61e79ebe1ac4deefa3e15f2a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3c
+Directories:		[]
+Files:		['02b3e0688703dc828c0f703b022109742f00d1', '800d9ecf33b15f364bfdbec77c7f7d5304f2b1']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/01
+Directories:		[]
+Files:		['4cee585cee702d290d79c90691d835346d84b9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/05
+Directories:		[]
+Files:		['ccf8467d5ed3e55572b2959fd2a84a42acf9e2', 'bd8b378f79a4f9f994dd81b0cf954cdf82f360']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b2
+Directories:		[]
+Files:		['a43701d39cfa0bb87608bc535e30dc7aa4bf2d', '777dd8822fed48b79ece7c51ea1c91272b7aa5', '5ad74a2e836319167d1784b74086bba58a706b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b7
+Directories:		[]
+Files:		['6cbcf2e44d02b091d37b4f61d27441b97a6205', '4c80a00ab61291d7837b19c1acefcbba0e5700']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8b
+Directories:		[]
+Files:		['1c8306d1d75b9cc2375dd331947a6c41110896']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/80
+Directories:		[]
+Files:		['dc2780d75b99b3c1494cb3eb5f452ff25c3b4c', '8d8128352a80bd7a0078d1abd8d701ee89bb49', '2836dee3ff22f3e3ff10a483a51d6b17246569']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5a
+Directories:		[]
+Files:		['9301eae7a9dcfe0a54ca065e2fc3f0721defa1', 'a335a54dbb867f67770a9255986d20062b7456']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ed
+Directories:		[]
+Files:		['12a8be9ee41083f134fee26ce66524d94ebca4', '0b20c437c85f37d843add46ee90a2a8e7d1368', 'b7546ccbe26b4b40044f32d3262e6be33e2692', '293898cab967b1dab48631ca43b653eadb8cdc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/40
+Directories:		[]
+Files:		['98dd9e2f6d3ea8029a32820e276465f40fa0b9', '1a0269884dd9ddbe7504cd752d97110084aab6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d3
+Directories:		[]
+Files:		['a1407973b8d6b338f4e20e0344a924939a786f', 'c8ba7d7f8b9e375839a104fb6b85f688234f9a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b1
+Directories:		[]
+Files:		['10d5dbea83c9e638d35dae2965f50fb28ce148', '7881a2f402cb61f91fb521b7592eeb9b1c92bf']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/87
+Directories:		[]
+Files:		['82d825a8068ae3aa52294cad2f3906223b8d44', '5adbd608077b756db5ab5d75eb694a278b3271', '463431312626012e8cdada131d3d7ed6f3b4c4', '23152d6fefcde1233b52a52c084e680e37cf3d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/90
+Directories:		[]
+Files:		['60c0afb879bf0bb3a9b69e9b11553c5b54da3e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/70
+Directories:		[]
+Files:		['1335fd870dbc0a44d3dca72391f1c7c9aa643e', '238a929dee37db5ce5cda727f01dbe75d0a499', '9a1975ff975f0f876b5be210c79393483d96f1']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/bc
+Directories:		[]
+Files:		['1998cd21d937baca480e97b1b683c10be58806', '182ce3de360b9249753bd04b2b3f87e6be1e3d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d4
+Directories:		[]
+Files:		['da419c0129f1d1760c796cb88f657a140c6e83']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7b
+Directories:		[]
+Files:		['1b48760a06e5d507e06360eb2baa5f6be5cc25']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/47
+Directories:		[]
+Files:		['d389858813a19171f732678918743589a4a950', 'ffb6f259dfaa14520eebcd101afb81962de50a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/pack
+Directories:		[]
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0a
+Directories:		[]
+Files:		['4aec810b2923d90adeb45a3270e2d2258bd496', '0dae404e5300c8a8919f945f671a8bacd9f70f', '7cf841d6808220df1c86bdeb9d37d736282fd3', '94f7a7db3cfce66345c4feaa13b3ed6f149c0b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/94
+Directories:		[]
+Files:		['5b1fbe69e9a932643bb33bb6d67ecd010add99', 'd963f4816407d8d156518fb9672203571cc70f', 'c21b095dfa526c2432fc133596f2ba91bf0d1d', 'bf455e0a3df5d0a3b840be5d2c2b360bfbd328']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d8
+Directories:		[]
+Files:		['ae86346866e23d707f73be59c1543474371b48', '3dcd0d2cc7ba4ccb314a41a059365b003e8821']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/79
+Directories:		[]
+Files:		['7699cd28f3ff49e882fe8d3b3ef289b54f0161', '08406c1b7818f29d768e7390f008b90f1395e3', '27538e288ef9bf358fc905f609ffc1396bc986']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/81
+Directories:		[]
+Files:		['bc64a9a90503cac2d3bf8f4fa011f8abb363ab', '28939c3ee51381b4ff649c1e1f1801083ad7e4', 'd63302d927717b729671e5cc290e6977df2260']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e2
+Directories:		[]
+Files:		['80f3161fb37e6837b0a01b803a818d3cbac4c7']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f4
+Directories:		[]
+Files:		['a03d1d761a1deaef5ee3d2d77cd84a68b567c5', '5cbadf0074d8b7b2669559a93bc50bb95f82d4', 'df9b51762f222b4a3d21f0e4a9d599eb145a70']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/eb
+Directories:		[]
+Files:		['8d8dc6bf58d3455971457c20e5d6638430ea57']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0f
+Directories:		[]
+Files:		['8d8ea9f45456e90ce499a9f3139169a3b57b5e', 'ffdd88c85db5c465f5a71e11b529995fc4ebba', '856cb94bc032d18aeee58340e25d9ecfb98739']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3f
+Directories:		[]
+Files:		['ffe9832e3e375bc6c2b4e8333b7ce7d9348447']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/43
+Directories:		[]
+Files:		['497db4ee0ae9cc194daf7c52ad4fdc4b6f356e', 'f7884251c692c76c849ec332f6f3d625f40fc7', '08213c9f0274aa19f65c2396e8473d70f4be65']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/aa
+Directories:		[]
+Files:		['59e9dd431ba9e16a4fe003ec39d7295892a863']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/89
+Directories:		[]
+Files:		['da9ef20eabd82b40bb4c489f43eccdd122cb76']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/50
+Directories:		[]
+Files:		['953b6b8265a8096c7475bf058b15858c24e959', '61bc7a1fa4ab6892a4e1bb68a8131f5a8c1463']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5f
+Directories:		[]
+Files:		['d690a19bbe07f490015601cfeca3ed391a24cb', '8ddd44d72fa28786329b317903e173b201d23c', '454e243771e67908ed17e3cdf148750398c527', 'bbe551eb7b0532a2eddbf19b03187eef47aba0']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7e
+Directories:		[]
+Files:		['4630fc3d289928643397d6245ca84abbdd79cb']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/2f
+Directories:		[]
+Files:		['b9264627d6950e23c670c3c1c2ddc0ceca372c', '45171f7a00f8f177edff930e3263959c8e0014']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/68
+Directories:		[]
+Files:		['7f0be720a4945c0812068ac3bf2ed4ff3afecf', '57239c6c145ac1e1712550fd9314f4d2ea73a3', '35f0e58140d95f317b61112b72d5d428b97527', '66844d02ac741ca4645427ab3a791e1ced578d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5b
+Directories:		[]
+Files:		['c5d27bc9885fbdac47f76aa8d2cd196324809b', 'c2d7ee1f83b5b940fae7664091be8da23db3cb']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/65
+Directories:		[]
+Files:		['4bc808e311eaffcac28d6ef526b2321ca422d5', '16f0c3d6cf04712486b252ec9b7cd6e0e7699a']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/21
+Directories:		[]
+Files:		['b43044811dd451fe4de0bbd265e3b680e2bbbd']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/dd
+Directories:		[]
+Files:		['8bf0c810507978656d7b9587ecb1b523c0b050', '88dfddc562463df2c88417787219f13b0bd93b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1a
+Directories:		[]
+Files:		['895edbbde9151b72e1e1ee3ea535a55f43c870', '4cf9dbe7ca57c9308140bd80cf5e0fed31250f', '3e6bee31eeda7f7361110ad65f2dc2da2dbf64', '1a2f420f73b1b2b3c00d9e5211f861c775c4b3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/10
+Directories:		[]
+Files:		['9efceba7802005eb55e658fd1c60cbca466a61']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/9b
+Directories:		[]
+Files:		['f7320397f79814e4f5bf4de30fd2c8905263f4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/6a
+Directories:		[]
+Files:		['83d48e4a92b0c0fc9a3e5518c5a493e8c77068', 'ae64d38df1dbc6bcf6205e039dc9d1d7139677', 'cf1aa4742fa1a87cf77e3ee4b752d5d908235d']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3e
+Directories:		[]
+Files:		['838413aee89ecc50423f9db335c0b42d47310d', '025006f35bfe8a3bc1349fa0fd3a3696260efd']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/19
+Directories:		[]
+Files:		['2bac62e060a032a50de19a99ea9a213a2cde01', 'de4bf14c4f05a6d53bf090eb3c661caa480d90', '1a2483908b664ef0815023b004fcf2b55b3904']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/48
+Directories:		[]
+Files:		['51eacdf178e8954506b23b114c52cb57619c53']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/62
+Directories:		[]
+Files:		['867e67ad39c7f7bc978ae535943b55ff7cd918', 'd196a3e44500e409788708328edb04fd4a1cdb', '4fb7b90bf83720bcded6d14929b6fa83231fbc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/46
+Directories:		[]
+Files:		['6e26b82ec7da3bf93f3e8567a48fc76e1eb1a0']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4e
+Directories:		[]
+Files:		['5ee03e109e03ac50cc02fb2a999cf1ba78216f']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f0
+Directories:		[]
+Files:		['be337dd5ac8db003019c29ea37d666c78be3ef', '8929bf6534bd013841c2494f34f8e516e9357d', '38812d87280751c9189175fc0c72d09dcb51d1', 'c227d3118d35ceec6a7767f71c98e219022c33', '931db31369eaacbeb1b6a91592e193046445f3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e5
+Directories:		[]
+Files:		['6a9c42a8ca3af8cda9c622bfc132dd5ae5f9b2', '6f9b4cfb716bc660a8b05659be105a6ceaedcc', '9df0a4317249753965509835fd30ca552580db']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/12
+Directories:		[]
+Files:		['91cafafb49edf2e69a3291ec469d7beee12b29']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/38
+Directories:		[]
+Files:		['756e7f4421021e8ccaa1e875a4c627c23cb0ed', '2fedda17a824baf46412a70ba992a204014388', '9347a9d76bcc409678cde368a0ff8a0e5ff096']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8e
+Directories:		[]
+Files:		['474c1609dbe79cea3081f0ff2a7f515fa090ba', 'ff4dc24a6e147a5b7c69d613b687ac1b4ea9af', 'da83fe4f197f88006239a56e20603577cce225', 'cf8dfcef501d48a67a5c38cb6ff5bde77b8764', 'ea3124e3e82e86ca4c939c0ca0230d418e2026']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/82
+Directories:		[]
+Files:		['cf4d0f731f3cf9ec0adeeaec7785221bad48b5', '65dd05011a2237ced1638694aeb8476ed784ce']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b9
+Directories:		[]
+Files:		['ed2472ba83402e6a5e06773b3964e7bc6391b2', '268b668bde5a3f808251f410fe33f288780c08', 'b41973cf76b3126895601a5a9218f6477bd26b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ea
+Directories:		[]
+Files:		['e359583db4b9d77a47f204ebd41a413788d3ce']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a4
+Directories:		[]
+Files:		['92760e5cc4eb6af263d2242863f1f5a671decb', '56ebec90ef5b214abbb603382e675bf6c62ac8']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/67
+Directories:		[]
+Files:		['fc12d869b22bdab219cc99d02afa96703cac41', '67a1b4c0196c670355e60c197e19263dcba9d3', '76b720f3a6277452e914f9bda3b7ad530348cc', '46785291aa309a037c4a2c204105dfd8501827']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/41
+Directories:		[]
+Files:		['01688ed35d8fd99eaa0b2b4316689337521efd']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/28
+Directories:		[]
+Files:		['1c2b6a5d360ca7b33d03258d1e36377b4656ca', '1193e3eb9bb18da218a05e21b9324091508b0e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5d
+Directories:		[]
+Files:		['8a96989c8e5d507473bc85775785d7743d0565']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/45
+Directories:		[]
+Files:		['0b88b1d570f1ab25ee269a9c5e8bf4d5c7c3c4', 'beb1c451f49570faa9d7693502be231df13732', 'dc36dc9181e2a4dbb8640d80a4b28e2bdbfb62']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a8
+Directories:		[]
+Files:		['ba87afe0a85961aab0d48420da0779bd4fffa7']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/cc
+Directories:		[]
+Files:		['0009c3816de62b50a7e8199ce0b176d35b9162', 'e2a97516380c8cbc9a08a32cfd29f6f9c1a069', 'a6de54830d8165d0801d4aac4e9fd10ccaa752', 'b0d931ff219756072d00e0af28ac6753ef5ae5', 'e83511315646784d0275be1be6c59641c6bb67']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f6
+Directories:		[]
+Files:		['40ab253a0ed630a9006f0d1b72c51b61cb7d29', 'ebc97111389505f2d8da0a7f17d662d9419fad', 'f9fd21d98f927fead9e571173764f14134b2c8', 'afa292fdff897f8ca2e83a9573ba268547a6f1', 'b424b695c34f815262be566f389acaeed608eb', '0b0e1ad0c58d3d98b8fb452a65c89e7601a90c', '39238b9f3bbd3d8bcc5fa97c287339e1e4cfe7']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/b4
+Directories:		[]
+Files:		['8326a1096170ab4dbd8f1d5f7b525803da90b9', '71fc3baddbacd09b3eb79b71fab89e16be14a4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/2a
+Directories:		[]
+Files:		['ccde8bb714c6fbc71539662861187d11f3dc08', 'c7afc1314f98687ad84fc404e123b6dbf3cb1a', '849c9b7c76bff108dcf9b603dd23061af830c5', '2bbc28fb0cb6dd08842637d10b9d651e3ecc30', '504ccf56003754c9fbce6c3ff5a28bb9c85b6c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e0
+Directories:		[]
+Files:		['0c4976688aa1a1413613582c078f014a8141e8', '142b5a6d4da8db3fca89244ca449f0b3172ac9', '65120ea70f73b06bb914747e25ed8ef6aa95f9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/22
+Directories:		[]
+Files:		['88e74425fae4fd6124c3269ad48b701d925abe', 'e23778bfb6ccfcbfe0138602aabb22510d6e5e', '51126b38c5ebfcdd2e52dca10d886a9a9b0b62', 'fbbb8c4f2b4cee532ae72304db03494d5eb9be']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ec
+Directories:		[]
+Files:		['fdac12c88f80d4cfb8043b176e1632902874ec', 'da910d55b895aa09480bb34ddb40cc527214e6', '1cfeb082c2499cb6723e7c21a1e99c77dccc9e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/db
+Directories:		[]
+Files:		['8f4ff1aef8593bd2ce340489a730e15b2376a0', '9efadc9b46e4490984d22b1d14c7dbb506566b', '5f13c87d383ef77262bf7349e01eb018d779ea']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c6
+Directories:		[]
+Files:		['0a389b048ae72f28d48ddc1daafe8130f869ed']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/0e
+Directories:		[]
+Files:		['99264b1797ec9914a22c94d6171787dd0a569a', '1dfa183ba95cbb6dc0b5c7872c8b3d32f13ae7', 'd155ae4ebe4d975aab373cccd75cc740c572c0', '8e4e444988bc41c178d5ebe83155d6ecd6c3fc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/71
+Directories:		[]
+Files:		['ee5f36db653e49f78e3e4ffcd84c4d949b3929', '085368f4652d1d645b949ed4b5383dffdafc26']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/02
+Directories:		[]
+Files:		['10e703453076525b069c4b5a0c611addf57950', 'e4be36eed0ddb486805d0b091eaa1d5d2fcd67', '29d1c886acb1e4e0b324803d3bd020e8c8d945']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/5c
+Directories:		[]
+Files:		['1ce17a1cc49e07cf5bde007639b0637cdbee45', '19b976e8df7a3d07ccb786baeb8d40f294bfa6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f1
+Directories:		[]
+Files:		['6e64ad48e5794a2d540b6dcaea9a44e3f5b8ff', '10107ca69c9d39aab86840c7fdd6953ceb296e', 'e6e52349bde656ab5a8562ecb9345d432910d6']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ae
+Directories:		[]
+Files:		['e8ccb6816a45ac2693d3919f69ed0817d791a5']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/bf
+Directories:		[]
+Files:		['cdd87ac743361bca80eb396a7a3955b4f4331f', '5e3981aa53be51a39a393f85c45459437c43ba', 'fffd5d7536334d4b669a15c7e2a5c9dbc22f81']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/17
+Directories:		[]
+Files:		['e7a420f1a6c890bbb49dbd0e26d5ff63ca5b74', '16ed60c3650dcc802aab3332ab45f8a0a57e18', 'bd25d26875ebd02cee6635c1a8fdb4edabeb45']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/27
+Directories:		[]
+Files:		['976ec621792ab046fb67c3045bcf37d810849d', '6cf282d5d1dd05f155a3d76d10a8e0807325d4', '353be9d8720ab012f9568b3a7720af22af3c06']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/76
+Directories:		[]
+Files:		['9e8396fac37157a3a58931b57c050e978839f9', 'aae6e64d483e4b67eeee315d4053ff6d41cf43', '7048826ba0291294ddb5fc214ae44a53c07864']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/58
+Directories:		[]
+Files:		['9ab475e863a7ffe408fb1240303ec0a440e8c5', 'ad189113b46feeec530a8bb2fc2b1af684909c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e7
+Directories:		[]
+Files:		['68cea812a56fe70ada6639ac8439075b6a1787', 'd8d380c0c66f3e7397dfc1ea934a5f29609cd2', 'b747498281dae4a7d4357d0afe2872bcc15431']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/35
+Directories:		[]
+Files:		['e9de48f7325dcdfd14bad66bb4f07a7de9b525', '0892ae7b5ee05c0cd5682274c718a9e38691b9']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f7
+Directories:		[]
+Files:		['7c1cb4fee141ad7f7e057992a9b7beda5aefc1', 'c6cf8d81b0827ae22f745d9aead18c597b07df', '60f6f94006ee16e367ebb27f25f2006a374014', 'b28255ec69e448f5c609d6b4efe07ec686393d', 'bb17b2c5c36f49a3a921c4365c3486e29371bb', '9d586ad90674cf93728b1247498fe1c0f0ea35']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/54
+Directories:		[]
+Files:		['f6a37b16b574598fe616cf9db5949bd1e90ad3', 'bd4ab7513c9e471bf639bb69b3cea01bc66e41']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4d
+Directories:		[]
+Files:		['27b110855719e2413cd328aa62f8ae365e47eb', '8541bea8c42c9cdfce30610a0eb1045326f90c']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1d
+Directories:		[]
+Files:		['f784353943541d38f0333c31213cd454c8a30a', '7a4fd4d8fcbee3349d024cf4d62f9c0e65d9f9', 'f9aac77c792952f933d63a5912d3e431c1bce4']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3b
+Directories:		[]
+Files:		['beb331972d04ca1b4d8a5afc4e7b4cb0dad7c8', 'c7b75fc8355bc834700cfcb95d6731fcea511e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a7
+Directories:		[]
+Files:		['bcd2cb3387db451ebfff03ed13067a60d72131']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a1
+Directories:		[]
+Files:		['7a4006deecf5fd9c06d2282ede05ba965e1d9a', '11d2a37a1eca0c23cf8795d03a18903d7f616f']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/92
+Directories:		[]
+Files:		['11eeacd57706e4b3459cb0ea1fdc815425f66d', '1feb103dedf671482b88bfab647ca39f739779', '2f1eff04720a9e776c41fc38fcc7986629f507', '2def1fbb803619e87cfc513b9e167a2fb664d3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/97
+Directories:		[]
+Files:		['ce9d96527fbed4b6cb7b887482032ea8339988', '5f0c2077caeec8fdd9b8bc09a99e0ddcb7d153', '78489759f7dd36021aa44d9aa9bd8098656164']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/bb
+Directories:		[]
+Files:		['541d6f377ab39c50db4481504a5ee30f190b34', '0381330564c8391a57c3c75bbb99eb1e73694e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/78
+Directories:		[]
+Files:		['bdfe9b3d4fb6ae6f55afcf0eaa3c7051a4d7f2', '955dd2af55d1ebf14853842d548049852a5307', '9c5d3c816d8d2aef18e43de9d1698d7e62530f']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/20
+Directories:		[]
+Files:		['1b3c9a8d4171c38c924cd64434427eb061ce88']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3d
+Directories:		[]
+Files:		['841f9719e495d10d40f14ca7c984e0f3604981', 'feb235a01036635aab32b85cabd87ba1c158c0', '90dc6fe781a80aa2dfd9c15d3fc62c6ee9b6a8']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/7d
+Directories:		[]
+Files:		['9fad1c18c772736f3e4346556db0d8924af99e']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/39
+Directories:		[]
+Files:		['d49082e3d57a6fe44ce2bbc38a251d305f8e6f', '265167f9260cfe3cdc41e151710611a53c5d46']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/30
+Directories:		[]
+Files:		['c12f235e6cfd710b60c04e6aa5e06e5e151675', '13ad5413a7af561ff13cb2d39cc42f67f2e0f5', 'f5ca7b9fefa9f4daca32fd87560785d2825523', '18849ce588eb8daed7740fb6c02cd705951b04', '72477bb438dcfa8fa4f4c28d29b89a3b140b65', '5d286d97d4189d164bf12efb8ddb12d9fc5aea']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/15
+Directories:		[]
+Files:		['1246bde6187cea24d630dd4ea3ae9bb11910bc', 'efa179b5d640f11c39b01104a3b8793e47b977', '2354e59e17cde8c259750ac15709c9e8f7dfb7', 'd0f082ed82342dc8aed5030bdc6d62427a1e70', '9bb23c5a21ef4af77885822af80ea19a89bc87', '20c3eca7f9759b5de3412b7fefb4f04ad6f07b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/33
+Directories:		[]
+Files:		['d4d36c87ef9a5977bd8430eb4c9f4c412317b6', 'bf787ab77dc74023cc97415ce890b631fbf22b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d1
+Directories:		[]
+Files:		['6630dcea498edea78ed7d4eb4269f94abc8473', '2babcee9fff1bf220e6089159a2194f5a3a54b', '163408cae9b6fb5bf6c441e415b4d51376196f', 'dbe49e9d0af2497e499fe1598b61fe4a783af1']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/dc
+Directories:		[]
+Files:		['3250ff7399611961e5b925c7f62ccfcc668812', '77d7de660a0130873e24f2ea7af70ad6b2c95b', '06e79fb619812f7dea6dfbc2f57ab4509a8f8e', '52a7f9aadcb43dfb31abcc572ce5041113a7f6', 'e82e510574bfa15eb29b45debaee7ffd2317fb']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/ee
+Directories:		[]
+Files:		['d789378a8cdd57ed914e4c0acda868ba6b4f91', 'd3c4709944ffb334eb31766b871696840b2788']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8c
+Directories:		[]
+Files:		['53c047268484aff305d8eb8d2ebf67cff97393', '06ef51255a5af66fa25bbb0563f78e469b483a', '9890f95967617056347fd7709aa2c8d5054a98']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/1b
+Directories:		[]
+Files:		['706bc8b60801a5791f74a4b3982a13cafbcf03']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/6d
+Directories:		[]
+Files:		['7389fd5a3167282b0ed9aea4977da0573143ef']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/2c
+Directories:		[]
+Files:		['8fd3df9d79fc3972b579677593c35bd1aa5876', 'c007373477323f28fdc89bf815feaf7089cfb7', 'b1be21374e1c35c7652707f996021b074d61a8']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/fd
+Directories:		[]
+Files:		['1778172b1fec429807eb8ab5208ea47438ea2e', '6a2c393a2b2ab7313f9dfa1102f175af071541', '168e53ae8d5f338bb4f145473c14349fd6c6d3', '00e03290cc2006bf7e4ad2010d730f4468ecce', '6422317bc35517c661e6b1a9be0140f78977cc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/info
+Directories:		[]
+Files:		['exclude']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/refs
+Directories:		['remotes', 'heads', 'tags']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/refs/remotes
+Directories:		['origin']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/refs/remotes/origin
+Directories:		[]
+Files:		['master']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/refs/heads
+Directories:		[]
+Files:		['master']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/refs/tags
+Directories:		[]
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/branches
+Directories:		[]
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Generators_demo
+Directories:		[]
+Files:		['Intro_Generators.py', 'alpha_gen.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/JSON_demo
+Directories:		[]
+Files:		['btc.json', 'file.json', 'myfile.json', 'test.json', 'Basics.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.idea
+Directories:		['inspectionProfiles']
+Files:		['workspace.xml', 'modules.xml', 'vcs.xml', 'pythonProject.iml', 'misc.xml', '.gitignore']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.idea/inspectionProfiles
+Directories:		[]
+Files:		['profiles_settings.xml']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Modules
+Directories:		[]
+Files:		['file_walk.txt', 'OS_demo.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Classes_testdef
+Directories:		[]
+Files:		['Basic_Class.py', 'Class_Inheritance.py', 'Class_Var.py', 'Abstract_Classes.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Tkinter_Demo
+Directories:		[]
+Files:		['Basic_Input.py', 'Basic_Button.py', 'Basic_Grids.py', 'Basic_Gui.py']
+
