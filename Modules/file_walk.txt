@@ -1,6 +1,6 @@
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject
-Directories:		['django_demo', 'Threading', 'FileOperations', 'Pattern Printing', 'test_package', 'PythonGames', 'Collections', 'Database', 'Sockets', 'PythonTricks', 'GeoProject', 'Regular Expressions', 'FlaskProject', '.git', 'Generators_demo', 'JSON_demo', '.idea', 'Modules', 'Classes_testdef', 'Tkinter_Demo']
-Files:		['HELP.py', 'pyscipt.py', 'tt.py', 'Test', 'filelist.txt', 'Classes.py', 'README.md', 'requirements.txt', 'DateTime_demo.py', 'play.py', 'Scope.py', 'Python 3.10 New Features']
+Directories:		['django_demo', 'Threading', 'FileOperations', 'Pattern Printing', 'test_package', 'PythonGames', 'Collections', 'Database', 'Sockets', 'PythonTricks', 'GeoProject', 'Regular Expressions', 'FlaskProject', '.git', 'Generators_demo', 'JSON_demo', '.idea', 'Modules', 'venv', 'Classes_testdef', 'Tkinter_Demo']
+Files:		['HELP.py', 'pyscipt.py', 'tt.py', 'Test', 'Classes.py', 'README.md', 'requirements.txt', 'DateTime_demo.py', 'play.py', 'Scope.py', 'Python 3.10 New Features']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/django_demo
 Directories:		['django_demo']
@@ -119,7 +119,7 @@ Directories:		[]
 Files:		['pre-push.sample', 'commit-msg.sample', 'prepare-commit-msg.sample', 'pre-rebase.sample', 'pre-merge-commit.sample', 'update.sample', 'pre-commit.sample', 'pre-receive.sample', 'fsmonitor-watchman.sample', 'applypatch-msg.sample', 'pre-applypatch.sample', 'post-update.sample']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects
-Directories:		['c4', 'f8', '14', '36', '93', '1e', '66', '53', 'a2', 'd0', '37', '5e', 'da', 'b0', '83', '29', 'e8', '61', 'fe', '4c', 'df', '25', '8f', '03', 'e6', 'a5', 'ab', '0c', 'be', 'fc', 'bd', '75', '31', '63', 'a9', 'f5', 'cb', 'af', '64', 'e1', 'd5', '55', 'e9', '23', 'ef', 'b5', '96', 'c8', '4f', 'fa', 'f2', '95', '3a', 'c7', 'ca', '18', '7a', 'a6', '1f', 'c9', 'ce', '51', 'ba', 'c3', '13', '99', 'd2', '04', '88', 'e3', '06', 'ff', 'ac', '0b', 'a3', '8d', '7c', 'd7', 'e4', '9d', '60', '85', 'cf', '73', '11', '69', 'd9', '0d', '6c', 'd6', 'c1', '49', '6f', 'fb', '91', '16', '9e', '9c', 'de', '74', '84', '9f', '34', 'c0', 'info', '1c', '2d', 'b8', '08', '7f', '52', '4a', '26', '6e', '56', '3c', '01', '05', 'b2', 'b7', '8b', '80', '5a', 'ed', '40', 'd3', 'b1', '87', '90', '70', 'bc', 'd4', '7b', '47', 'pack', '0a', '94', 'd8', '79', '81', 'e2', 'f4', 'eb', '0f', '3f', '43', 'aa', '89', '50', '5f', '7e', '2f', '68', '5b', '65', '21', 'dd', '1a', '10', '9b', '6a', '3e', '19', '48', '62', '46', '4e', 'f0', 'e5', '12', '38', '8e', '82', 'b9', 'ea', 'a4', '67', '41', '28', '5d', '45', 'a8', 'cc', 'f6', 'b4', '2a', 'e0', '22', 'ec', 'db', 'c6', '0e', '71', '02', '5c', 'f1', 'ae', 'bf', '17', '27', '76', '58', 'e7', '35', 'f7', '54', '4d', '1d', '3b', 'a7', 'a1', '92', '97', 'bb', '78', '20', '3d', '7d', '39', '30', '15', '33', 'd1', 'dc', 'ee', '8c', '1b', '6d', '2c', 'fd']
+Directories:		['c4', 'f8', '14', '36', '93', '1e', '66', '53', '00', 'a2', 'd0', '37', '5e', 'da', 'b0', '83', '29', 'e8', '61', 'fe', '4c', 'df', '25', '8f', '03', 'e6', 'a5', 'ab', '0c', 'be', 'fc', 'bd', '75', '31', '63', 'a9', 'f5', 'cb', 'af', '64', 'e1', 'd5', '55', 'e9', '23', 'ef', 'b5', '96', 'c8', '4f', 'fa', 'f2', '95', '3a', 'c7', 'ca', '18', '7a', 'a6', '1f', 'c9', 'ce', '51', 'ba', 'c3', '13', '99', 'd2', '04', '88', 'e3', '06', 'ff', 'ac', '0b', 'a3', '8d', '7c', 'd7', 'e4', '9d', '60', '85', 'cf', '73', '11', '69', 'd9', '0d', '6c', 'd6', 'c1', '49', '6f', 'fb', '91', '16', '9e', '9c', 'de', '74', '84', '9f', '34', 'c0', 'info', '1c', '2d', 'b8', '08', '7f', '52', '4a', '26', '6e', '56', '3c', '01', '05', 'b2', 'b7', '8b', '80', '5a', 'ed', '40', 'd3', 'b1', '87', '90', '70', 'bc', 'd4', '7b', '47', 'pack', '0a', '94', 'd8', '79', '81', 'e2', 'f4', 'eb', '0f', '3f', '43', 'aa', '89', '50', '5f', '7e', '2f', '68', '5b', '65', '21', 'dd', '1a', '10', '9b', '6a', '3e', '19', '48', '62', '46', '4e', 'f0', '86', 'e5', '12', '38', '8e', '82', 'b9', 'ea', 'a4', '67', '41', '28', '5d', '45', 'a8', 'cc', 'f6', 'b4', '2a', 'e0', '22', 'ec', 'db', 'c6', '0e', '71', '02', '5c', 'f1', 'ae', 'bf', '17', '27', '76', '58', 'e7', '35', 'f7', '54', '4d', '1d', '3b', 'a7', 'a1', '92', '97', 'bb', '78', '20', '3d', '7d', '39', '30', '15', '33', '8a', 'd1', 'dc', 'ee', '8c', '1b', '6d', '2c', 'fd']
 Files:		[]
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/c4
@@ -153,6 +153,10 @@ Files:		['ead98e31e58a9ef9c1e077d44c6b87e2a02b3b', '0349e32f6bb387d2f55bfc6317be
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/53
 Directories:		[]
 Files:		['41d5a67a34f4fb0cab8d2c0161627d15120479']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/00
+Directories:		[]
+Files:		['190f202c65a5904eff866903a1ca80d1877d36']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a2
 Directories:		[]
@@ -564,11 +568,11 @@ Files:		['a17aa2acade38cd8eb4f61909cdcf4b03858ab']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/52
 Directories:		[]
-Files:		['44a402bd8b34736859c9c8e9e5b073e3ba0b64', '684395915431d266fd82915090eb22f0ac36aa', '50e5115c16e22c842623664bc8066dcbd326cd', '5fd4361e58d02070ec5fc0a74e05a5f041a7ef']
+Files:		['44a402bd8b34736859c9c8e9e5b073e3ba0b64', '684395915431d266fd82915090eb22f0ac36aa', '50e5115c16e22c842623664bc8066dcbd326cd', '5fd4361e58d02070ec5fc0a74e05a5f041a7ef', '09aeb4a2439a1d7127d821bd8a023ce0d55195']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/4a
 Directories:		[]
-Files:		['65860759cbe413c708db5ae3234d4233c2fe55', 'cdb3d0bae585b61086d49fa72e057dbc66ace0']
+Files:		['65860759cbe413c708db5ae3234d4233c2fe55', 'cd675063d1424a36286ad011bb992bc4354516', 'cdb3d0bae585b61086d49fa72e057dbc66ace0']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/26
 Directories:		[]
@@ -794,6 +798,10 @@ Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/f0
 Directories:		[]
 Files:		['be337dd5ac8db003019c29ea37d666c78be3ef', '8929bf6534bd013841c2494f34f8e516e9357d', '38812d87280751c9189175fc0c72d09dcb51d1', 'c227d3118d35ceec6a7767f71c98e219022c33', '931db31369eaacbeb1b6a91592e193046445f3']
 
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/86
+Directories:		[]
+Files:		['38254fa81e0995dad5101c95c139dc2a575c11']
+
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/e5
 Directories:		[]
 Files:		['6a9c42a8ca3af8cda9c622bfc132dd5ae5f9b2', '6f9b4cfb716bc660a8b05659be105a6ceaedcc', '9df0a4317249753965509835fd30ca552580db']
@@ -956,7 +964,7 @@ Files:		['f784353943541d38f0333c31213cd454c8a30a', '7a4fd4d8fcbee3349d024cf4d62f
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/3b
 Directories:		[]
-Files:		['beb331972d04ca1b4d8a5afc4e7b4cb0dad7c8', 'c7b75fc8355bc834700cfcb95d6731fcea511e']
+Files:		['6fe6584a1875603c2910ee2178a221880eb8ef', 'beb331972d04ca1b4d8a5afc4e7b4cb0dad7c8', 'c7b75fc8355bc834700cfcb95d6731fcea511e']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/a7
 Directories:		[]
@@ -1009,6 +1017,10 @@ Files:		['1246bde6187cea24d630dd4ea3ae9bb11910bc', 'efa179b5d640f11c39b01104a3b8
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/33
 Directories:		[]
 Files:		['d4d36c87ef9a5977bd8430eb4c9f4c412317b6', 'bf787ab77dc74023cc97415ce890b631fbf22b']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/8a
+Directories:		[]
+Files:		['14c0fe38fcd43e38d5ec6c7ac4f13987f26d96']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/.git/objects/d1
 Directories:		[]
@@ -1089,6 +1101,378 @@ Files:		['profiles_settings.xml']
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Modules
 Directories:		[]
 Files:		['file_walk.txt', 'OS_demo.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv
+Directories:		['bin', 'lib']
+Files:		['pyvenv.cfg', '.gitignore']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/bin
+Directories:		[]
+Files:		['activate.ps1', 'activate.fish', 'wheel', 'pip3.9', 'wheel-3.9', 'activate', 'python3', 'pip', 'activate.xsh', 'automat-visualize', 'pip-3.9', 'python', 'activate.csh', 'wheel3.9', 'wheel3', 'activate_this.py', 'python3.9', 'pip3']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib
+Directories:		['python3.9']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9
+Directories:		['site-packages']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages
+Directories:		['wheel', 'setuptools', 'pip-21.1.2.dist-info', 'Automat-0.8.0.dist-info', 'automat', 'pip', 'wheel-0.36.2.dist-info', '__pycache__', 'pkg_resources', '_distutils_hack', 'attrs-19.3.0.dist-info', 'setuptools-57.0.0.dist-info', 'six-1.16.0.dist-info', 'attr']
+Files:		['wheel-0.36.2.virtualenv', 'six.py', 'pip-21.1.2.virtualenv', 'setuptools-57.0.0.virtualenv', '_virtualenv.pth', 'distutils-precedence.pth', '_virtualenv.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/wheel
+Directories:		['vendored', 'cli']
+Files:		['__main__.py', 'wheelfile.py', 'pkginfo.py', 'util.py', '__init__.py', 'bdist_wheel.py', 'metadata.py', 'macosx_libfile.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/wheel/vendored
+Directories:		['packaging']
+Files:		['__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/wheel/vendored/packaging
+Directories:		[]
+Files:		['_typing.py', 'tags.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/wheel/cli
+Directories:		[]
+Files:		['unpack.py', 'pack.py', 'convert.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools
+Directories:		['_vendor', '_distutils', 'extern', 'command']
+Files:		['lib2to3_ex.py', 'unicode_utils.py', 'ssl_support.py', 'depends.py', 'msvc.py', 'sandbox.py', 'dep_util.py', 'script.tmpl', 'errors.py', 'gui-32.exe', 'archive_util.py', '_deprecation_warning.py', 'extension.py', 'config.py', 'monkey.py', 'installer.py', 'package_index.py', 'version.py', 'dist.py', '_imp.py', 'build_meta.py', 'cli-32.exe', 'glob.py', 'wheel.py', 'py34compat.py', 'cli.exe', 'gui-64.exe', 'namespaces.py', '__init__.py', 'gui.exe', 'windows_support.py', 'launch.py', 'cli-64.exe', 'script (dev).tmpl']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/_vendor
+Directories:		['packaging', 'more_itertools']
+Files:		['pyparsing.py', 'ordered_set.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/_vendor/packaging
+Directories:		[]
+Files:		['_typing.py', 'utils.py', 'tags.py', 'markers.py', 'requirements.py', '_compat.py', 'version.py', '__about__.py', 'specifiers.py', '__init__.py', '_structures.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/_vendor/more_itertools
+Directories:		[]
+Files:		['recipes.py', '__init__.py', 'more.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/_distutils
+Directories:		['command']
+Files:		['text_file.py', 'msvc9compiler.py', '_msvccompiler.py', 'spawn.py', 'cygwinccompiler.py', 'util.py', 'dep_util.py', 'errors.py', 'cmd.py', 'archive_util.py', 'py35compat.py', 'file_util.py', 'unixccompiler.py', 'extension.py', 'config.py', 'log.py', 'version.py', 'dist.py', 'dir_util.py', 'py38compat.py', 'versionpredicate.py', 'ccompiler.py', 'core.py', 'bcppcompiler.py', 'filelist.py', 'msvccompiler.py', '__init__.py', 'debug.py', 'sysconfig.py', 'fancy_getopt.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/_distutils/command
+Directories:		[]
+Files:		['upload.py', 'bdist_rpm.py', 'bdist.py', 'check.py', 'clean.py', 'install_scripts.py', 'bdist_wininst.py', 'build.py', 'install_lib.py', 'config.py', 'py37compat.py', 'sdist.py', 'build_ext.py', 'bdist_msi.py', 'build_py.py', 'build_scripts.py', 'bdist_dumb.py', 'install_egg_info.py', 'install.py', 'install_data.py', '__init__.py', 'install_headers.py', 'register.py', 'build_clib.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/extern
+Directories:		[]
+Files:		['__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools/command
+Directories:		[]
+Files:		['upload.py', 'bdist_rpm.py', 'test.py', 'setopt.py', 'py36compat.py', 'saveopts.py', 'install_scripts.py', 'install_lib.py', 'launcher manifest.xml', 'sdist.py', 'build_ext.py', 'dist_info.py', 'upload_docs.py', 'build_py.py', 'easy_install.py', 'egg_info.py', 'install_egg_info.py', 'install.py', '__init__.py', 'bdist_egg.py', 'rotate.py', 'register.py', 'develop.py', 'alias.py', 'build_clib.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip-21.1.2.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'entry_points.txt', 'INSTALLER', 'WHEEL', 'LICENSE.txt']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/Automat-0.8.0.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'LICENSE', 'entry_points.txt', 'REQUESTED', 'INSTALLER', 'WHEEL']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/automat
+Directories:		['__pycache__', '_test']
+Files:		['_visualize.py', '_discover.py', '_introspection.py', '__init__.py', '_methodical.py', '_core.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/automat/__pycache__
+Directories:		[]
+Files:		['_introspection.cpython-39.pyc', '__init__.cpython-39.pyc', '_core.cpython-39.pyc', '_methodical.cpython-39.pyc', '_discover.cpython-39.pyc', '_visualize.cpython-39.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/automat/_test
+Directories:		['__pycache__']
+Files:		['test_trace.py', 'test_core.py', 'test_discover.py', 'test_methodical.py', '__init__.py', 'test_visualize.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/automat/_test/__pycache__
+Directories:		[]
+Files:		['__init__.cpython-39.pyc', 'test_discover.cpython-39.pyc', 'test_trace.cpython-39.pyc', 'test_visualize.cpython-39.pyc', 'test_methodical.cpython-39.pyc', 'test_core.cpython-39.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip
+Directories:		['_vendor', '_internal']
+Files:		['__main__.py', 'py.typed', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor
+Directories:		['certifi', 'packaging', 'toml', 'colorama', 'msgpack', 'tenacity', 'html5lib', 'requests', 'distlib', 'progress', 'webencodings', 'pkg_resources', 'idna', 'urllib3', 'resolvelib', 'chardet', 'cachecontrol', 'pep517']
+Files:		['pyparsing.py', 'six.py', 'appdirs.py', 'vendor.txt', 'distro.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/certifi
+Directories:		[]
+Files:		['__main__.py', 'cacert.pem', 'core.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/packaging
+Directories:		[]
+Files:		['_typing.py', 'utils.py', 'tags.py', 'markers.py', 'requirements.py', '_compat.py', 'version.py', '__about__.py', 'specifiers.py', '__init__.py', '_structures.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/toml
+Directories:		[]
+Files:		['decoder.py', 'ordered.py', 'encoder.py', '__init__.py', 'tz.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/colorama
+Directories:		[]
+Files:		['ansi.py', 'ansitowin32.py', 'win32.py', 'initialise.py', 'winterm.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/msgpack
+Directories:		[]
+Files:		['exceptions.py', 'ext.py', '_version.py', 'fallback.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/tenacity
+Directories:		[]
+Files:		['before_sleep.py', '_asyncio.py', 'compat.py', 'wait.py', '_utils.py', 'after.py', 'before.py', 'retry.py', 'tornadoweb.py', '__init__.py', 'nap.py', 'stop.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib
+Directories:		['_trie', 'treewalkers', 'treebuilders', 'filters', 'treeadapters']
+Files:		['_ihatexml.py', '_inputstream.py', 'html5parser.py', '_utils.py', 'constants.py', '__init__.py', '_tokenizer.py', 'serializer.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib/_trie
+Directories:		[]
+Files:		['_base.py', '__init__.py', 'py.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treewalkers
+Directories:		[]
+Files:		['base.py', 'genshi.py', 'etree_lxml.py', 'dom.py', 'etree.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treebuilders
+Directories:		[]
+Files:		['base.py', 'etree_lxml.py', 'dom.py', 'etree.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib/filters
+Directories:		[]
+Files:		['sanitizer.py', 'whitespace.py', 'base.py', 'optionaltags.py', 'lint.py', 'alphabeticalattributes.py', 'inject_meta_charset.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/html5lib/treeadapters
+Directories:		[]
+Files:		['sax.py', 'genshi.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/requests
+Directories:		[]
+Files:		['compat.py', 'utils.py', 'api.py', 'auth.py', 'sessions.py', 'status_codes.py', 'exceptions.py', 'cookies.py', 'hooks.py', 'structures.py', '_internal_utils.py', 'help.py', 'certs.py', '__version__.py', 'adapters.py', '__init__.py', 'packages.py', 'models.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/distlib
+Directories:		['_backport']
+Files:		['compat.py', 'database.py', 'locators.py', 'w32.exe', 'index.py', 'util.py', 'scripts.py', 'markers.py', 'version.py', 't32.exe', 'resources.py', 'wheel.py', 'w64.exe', '__init__.py', 'metadata.py', 't64.exe', 'manifest.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/distlib/_backport
+Directories:		[]
+Files:		['misc.py', 'shutil.py', 'tarfile.py', 'sysconfig.cfg', '__init__.py', 'sysconfig.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/progress
+Directories:		[]
+Files:		['counter.py', 'bar.py', 'spinner.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/webencodings
+Directories:		[]
+Files:		['tests.py', 'labels.py', '__init__.py', 'x_user_defined.py', 'mklabels.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/pkg_resources
+Directories:		[]
+Files:		['__init__.py', 'py31compat.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/idna
+Directories:		[]
+Files:		['intranges.py', 'compat.py', 'codec.py', 'core.py', 'uts46data.py', 'package_data.py', '__init__.py', 'idnadata.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3
+Directories:		['contrib', 'packages', 'util']
+Files:		['exceptions.py', 'request.py', 'poolmanager.py', 'connectionpool.py', '_version.py', 'filepost.py', 'response.py', 'connection.py', '__init__.py', 'fields.py', '_collections.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib
+Directories:		['_securetransport']
+Files:		['securetransport.py', 'ntlmpool.py', 'appengine.py', 'socks.py', 'pyopenssl.py', '__init__.py', '_appengine_environ.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+Directories:		[]
+Files:		['bindings.py', 'low_level.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages
+Directories:		['backports', 'ssl_match_hostname']
+Files:		['six.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/backports
+Directories:		[]
+Files:		['__init__.py', 'makefile.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname
+Directories:		[]
+Files:		['_implementation.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/urllib3/util
+Directories:		[]
+Files:		['wait.py', 'ssltransport.py', 'url.py', 'queue.py', 'request.py', 'timeout.py', 'retry.py', 'response.py', 'connection.py', '__init__.py', 'proxy.py', 'ssl_.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/resolvelib
+Directories:		['compat']
+Files:		['reporters.py', 'resolvers.py', 'providers.py', 'structs.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/compat
+Directories:		[]
+Files:		['collections_abc.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/chardet
+Directories:		['metadata', 'cli']
+Files:		['compat.py', 'codingstatemachine.py', 'langrussianmodel.py', 'latin1prober.py', 'utf8prober.py', 'escsm.py', 'mbcsgroupprober.py', 'enums.py', 'euckrprober.py', 'escprober.py', 'gb2312freq.py', 'euckrfreq.py', 'hebrewprober.py', 'langhungarianmodel.py', 'langbulgarianmodel.py', 'charsetgroupprober.py', 'mbcssm.py', 'langturkishmodel.py', 'mbcharsetprober.py', 'version.py', 'universaldetector.py', 'eucjpprober.py', 'sjisprober.py', 'big5prober.py', 'euctwprober.py', 'sbcsgroupprober.py', 'langhebrewmodel.py', 'gb2312prober.py', 'jpcntx.py', 'cp949prober.py', 'langgreekmodel.py', 'big5freq.py', '__init__.py', 'euctwfreq.py', 'jisfreq.py', 'chardistribution.py', 'sbcharsetprober.py', 'charsetprober.py', 'langthaimodel.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/chardet/metadata
+Directories:		[]
+Files:		['languages.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/chardet/cli
+Directories:		[]
+Files:		['chardetect.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/cachecontrol
+Directories:		['caches']
+Files:		['compat.py', 'cache.py', 'controller.py', 'wrapper.py', 'filewrapper.py', '_cmd.py', 'adapter.py', 'serialize.py', '__init__.py', 'heuristics.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/cachecontrol/caches
+Directories:		[]
+Files:		['redis_cache.py', '__init__.py', 'file_cache.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/pep517
+Directories:		['in_process']
+Files:		['compat.py', 'check.py', 'envbuild.py', 'build.py', 'dirtools.py', 'meta.py', 'colorlog.py', 'wrappers.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_vendor/pep517/in_process
+Directories:		[]
+Files:		['_in_process.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal
+Directories:		['distributions', 'req', 'metadata', 'operations', 'commands', 'network', 'models', 'locations', 'vcs', 'cli', 'index', 'resolution', 'utils']
+Files:		['cache.py', 'self_outdated_check.py', 'wheel_builder.py', 'pyproject.py', 'exceptions.py', 'main.py', '__init__.py', 'build_env.py', 'configuration.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/distributions
+Directories:		[]
+Files:		['base.py', 'installed.py', 'sdist.py', 'wheel.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/req
+Directories:		[]
+Files:		['constructors.py', 'req_file.py', 'req_set.py', '__init__.py', 'req_uninstall.py', 'req_tracker.py', 'req_install.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/metadata
+Directories:		[]
+Files:		['base.py', 'pkg_resources.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/operations
+Directories:		['build', 'install']
+Files:		['freeze.py', 'check.py', '__init__.py', 'prepare.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/operations/build
+Directories:		[]
+Files:		['metadata_legacy.py', 'wheel.py', 'wheel_legacy.py', '__init__.py', 'metadata.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/operations/install
+Directories:		[]
+Files:		['legacy.py', 'wheel.py', '__init__.py', 'editable_legacy.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/commands
+Directories:		[]
+Files:		['freeze.py', 'hash.py', 'check.py', 'cache.py', 'search.py', 'list.py', 'wheel.py', 'show.py', 'help.py', 'download.py', 'install.py', '__init__.py', 'debug.py', 'uninstall.py', 'configuration.py', 'completion.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/network
+Directories:		[]
+Files:		['cache.py', 'utils.py', 'auth.py', 'session.py', 'download.py', '__init__.py', 'xmlrpc.py', 'lazy_wheel.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/models
+Directories:		[]
+Files:		['target_python.py', 'candidate.py', 'index.py', 'wheel.py', 'link.py', 'format_control.py', 'selection_prefs.py', '__init__.py', 'scheme.py', 'direct_url.py', 'search_scope.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/locations
+Directories:		[]
+Files:		['base.py', '_sysconfig.py', '_distutils.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/vcs
+Directories:		[]
+Files:		['git.py', 'versioncontrol.py', 'mercurial.py', 'subversion.py', '__init__.py', 'bazaar.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/cli
+Directories:		[]
+Files:		['command_context.py', 'main_parser.py', 'cmdoptions.py', 'spinners.py', 'status_codes.py', 'main.py', 'base_command.py', 'req_command.py', '__init__.py', 'progress_bars.py', 'parser.py', 'autocompletion.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/index
+Directories:		[]
+Files:		['collector.py', 'sources.py', 'package_finder.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/resolution
+Directories:		['resolvelib', 'legacy']
+Files:		['base.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/resolution/resolvelib
+Directories:		[]
+Files:		['reporter.py', 'candidates.py', 'base.py', 'requirements.py', 'provider.py', 'resolver.py', '__init__.py', 'found_candidates.py', 'factory.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/resolution/legacy
+Directories:		[]
+Files:		['resolver.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pip/_internal/utils
+Directories:		[]
+Files:		['logging.py', 'urls.py', 'unpacking.py', 'filesystem.py', 'compat.py', 'misc.py', 'temp_dir.py', 'subprocess.py', 'packaging.py', 'filetypes.py', 'compatibility_tags.py', 'setuptools_build.py', 'pkg_resources.py', 'virtualenv.py', 'appdirs.py', 'wheel.py', 'direct_url_helpers.py', 'deprecation.py', 'glibc.py', 'hashes.py', 'datetime.py', '__init__.py', 'encoding.py', 'parallel.py', 'entrypoints.py', 'inject_securetransport.py', 'distutils_args.py', 'models.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/wheel-0.36.2.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'entry_points.txt', 'INSTALLER', 'WHEEL', 'LICENSE.txt']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/__pycache__
+Directories:		[]
+Files:		['_virtualenv.cpython-39.pyc', 'six.cpython-39.pyc']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources
+Directories:		['_vendor', 'tests', 'extern']
+Files:		['__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/_vendor
+Directories:		['packaging']
+Files:		['pyparsing.py', 'appdirs.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/_vendor/packaging
+Directories:		[]
+Files:		['_typing.py', 'utils.py', 'tags.py', 'markers.py', 'requirements.py', '_compat.py', 'version.py', '__about__.py', 'specifiers.py', '__init__.py', '_structures.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/tests
+Directories:		['data']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/tests/data
+Directories:		['my-test-package-source']
+Files:		[]
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/tests/data/my-test-package-source
+Directories:		[]
+Files:		['setup.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/pkg_resources/extern
+Directories:		[]
+Files:		['__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/_distutils_hack
+Directories:		[]
+Files:		['override.py', '__init__.py']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/attrs-19.3.0.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'LICENSE', 'REQUESTED', 'INSTALLER', 'WHEEL']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/setuptools-57.0.0.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'LICENSE', 'dependency_links.txt', 'entry_points.txt', 'INSTALLER', 'WHEEL']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/six-1.16.0.dist-info
+Directories:		[]
+Files:		['top_level.txt', 'METADATA', 'RECORD', 'LICENSE', 'INSTALLER', 'WHEEL']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/attr
+Directories:		['__pycache__']
+Files:		['_make.py', 'converters.py', 'validators.pyi', 'filters.py', 'exceptions.py', '_compat.py', '_version_info.py', '_version_info.pyi', '_config.py', 'exceptions.pyi', 'validators.py', '__init__.pyi', 'py.typed', '__init__.py', 'filters.pyi', '_funcs.py', 'converters.pyi']
+
+Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/venv/lib/python3.9/site-packages/attr/__pycache__
+Directories:		[]
+Files:		['_make.cpython-39.pyc', '__init__.cpython-39.pyc', 'validators.cpython-39.pyc', '_config.cpython-39.pyc', '_version_info.cpython-39.pyc', 'filters.cpython-39.pyc', '_compat.cpython-39.pyc', 'exceptions.cpython-39.pyc', '_funcs.cpython-39.pyc', 'converters.cpython-39.pyc']
 
 Directory_Path:		/home/myubuntu/PycharmProjects/pythonProject/Classes_testdef
 Directories:		[]
