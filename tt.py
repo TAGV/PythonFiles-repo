@@ -37,3 +37,20 @@ while (word := input("Enter word: ")) != 'quit':
 print(words)
 
 """
+
+import pandas as pd
+import csv
+x = pd.read_csv('testfile.csv')
+print(x)
+print("==============")
+print(x['Name'])
+print("==============")
+print(x['age'])
+print("==============")
+print(type(x))
+
+with open("testfile.csv",'r') as csv_read:
+    x = csv.reader(csv_read)
+    print(type(x))
+    for line in x:
+        print(line)
