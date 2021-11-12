@@ -18,6 +18,7 @@ end_pos_x = 500
 end_pos_y = 500
 linewidth = 5
 
+jump_count = 10
 # Start the main game loop
 while True:
     # Create a game window of width * height
@@ -71,7 +72,15 @@ while True:
             y = 0
             y = y + velocity
         #end_pos_y = end_pos_y - velocity
-
+    if keys[pygame.K_SPACE]:    #Jumping logic needs to be revised further
+        if jump_count >= -10:
+            negative_count = 1
+            if jump_count < 0:
+                negative_count = -1
+            y = y - ((jump_count ** 2) * 0.5 * negative_count)
+            jump_count = jump_count - 1
+        else:
+            jump_count = 10
     #game_window.fill((0,0,0))
 
 

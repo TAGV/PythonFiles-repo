@@ -1,3 +1,5 @@
+import sys
+
 print("bsdfbjsncghfghcv123")
 print("bsdfbjsncghfghcv123")
 name = "tanmay"
@@ -37,7 +39,7 @@ while (word := input("Enter word: ")) != 'quit':
 print(words)
 
 """
-
+"""
 import pandas as pd
 import csv
 x = pd.read_csv('testfile.csv')
@@ -54,3 +56,15 @@ with open("testfile.csv",'r') as csv_read:
     print(type(x))
     for line in x:
         print(line)
+"""
+
+x = False
+
+while True:
+    if not x:
+        print("fsffgfgdf")
+        x = True
+    else:
+        print("12323231")
+        x = False
+        sys.exit()

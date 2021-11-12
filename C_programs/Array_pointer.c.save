@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int main()
+{
+
+
+//Declaring an array
+
+int arr[] = {1,2,4,5,3,4,5};
+
+printf("%ld\n",sizeof(arr));
+
+int n = sizeof(arr)/sizeof(int);
+printf("%d\n",n);
+
+for(int i = 0; i<7; i++)
+{
+printf("%d\t",arr[i]);
+}
+
+
+printf("\n\n===========Pointers Start=========\n");
+
+//Start Address
+//printf("%p\n",arr);
+
+for(int j = 0; j<n; j++)
+{
+	printf("%p\t",arr+j);//Printing the addresses
+		printf("%d\t",*(arr+j));
+	printf("\n");
+
+}
+
+
+}
