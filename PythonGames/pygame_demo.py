@@ -12,16 +12,16 @@ height=30
 velocity = 3
 
 # Define parameters for Line
-start_pos_x = 250
-start_pos_y = 100
-end_pos_x = 250
-end_pos_y = 450
+start_pos_x = 500
+start_pos_y = 0
+end_pos_x = 500
+end_pos_y = 500
 linewidth = 5
 
 # Start the main game loop
 while True:
     # Create a game window of width * height
-    game_window = pygame.display.set_mode((500,500))
+    game_window = pygame.display.set_mode((1000,500))
     # print(game_window)
 
     # Game Window header
@@ -36,19 +36,41 @@ while True:
 
     # Configuring the movement of the object on screen
     keys = pygame.key.get_pressed()
+    width_screen = (pygame.display.get_window_size()[0])
+    height_screen = (pygame.display.get_window_size()[1])
 
     if keys[pygame.K_LEFT]:
-        x = x - velocity
-        start_pos_x = start_pos_x + velocity
+        print(x)
+        if x > 0:
+            x = x - velocity
+        else:
+            x = width_screen
+            x = x - velocity
+        #start_pos_x = start_pos_x + velocity
     if keys[pygame.K_RIGHT]:
-        x = x + velocity
-        start_pos_x = start_pos_x - velocity
+        print(x)
+        if x < (width_screen-20):
+            x = x + velocity
+        else:
+            x = 0
+            x = x + velocity
+        #start_pos_x = start_pos_x - velocity
     if keys[pygame.K_UP]:
-        y = y - velocity
-        end_pos_y = end_pos_y + velocity
+        print(y)
+        if y > 0:
+            y = y - velocity
+        else:
+            y = height_screen
+            y = y - velocity
+        #end_pos_y = end_pos_y + velocity
     if keys[pygame.K_DOWN]:
-        y = y + velocity
-        end_pos_y = end_pos_y - velocity
+        print(y)
+        if y < (height_screen-20):
+            y = y + velocity
+        else:
+            y = 0
+            y = y + velocity
+        #end_pos_y = end_pos_y - velocity
 
     #game_window.fill((0,0,0))
 
