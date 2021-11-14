@@ -1,8 +1,25 @@
 #include<stdio.h>
 #include<string.h>
 
-void len(char* C) // ~= char* c
+
+void onlyprint(char* buff)
 {
+
+for(int j = 0; j<strlen(buff);j++)
+{
+	printf("%c",buff[j]);
+
+}
+printf("\t");
+
+
+}
+
+
+void len(char C[]) // ~= char* c
+{
+	printf("Length of string(Not incl Null character)\t");
+	onlyprint(C);
 	int length_of_string = 0;
 	while(*C != '\0')
 	{
@@ -11,7 +28,7 @@ void len(char* C) // ~= char* c
 		length_of_string += temp;
 		C++;
 	}
-	printf("Length(Not incl Null character)= %d\n",length_of_string);
+	printf("%d\n",length_of_string);
 
 }
 
@@ -28,34 +45,30 @@ void print(char* C)
 		C++;	//Pointer can be incremented as compared to an array
 		i++;
 	}
-	printf("%s\n",ch);
+	printf("%s\n",ch); //If this is enabled,then function need not return anything
 
-//	char* ptr;
-//	ptr = ch;
-//	printf("%p\n",(ptr));
-//	printf("In func  %ld\n",sizeof(ptr));
+	//char* ptr;
+	//ptr = ch;
+	//printf("%c\n",ptr[13]);
+	//printf("%ld\n",strlen(ptr));
+
 //return ptr;
 
 }
 
+
+
 int main()
 {
 
-char c[50]="Helloooooooooo";		//Null terminated character is applied implicitly
-char str[]={'b','y','e','\0'};	//Need to explicitly apply the null charcter else it prints garbage
+char c[50]="Helloooooooootghfghfb";		//Null terminated character is applied implicitly
+char str[]={'b','y','e','e','e','e','\0'};			//Need to explicitly apply the null charcter else it prints garbage
 char astr[20]= "Rogerfhffyfy";
 
-//printf("%s\n",c);
 //printf("Size= %lu bytes\n",sizeof(c));	//This gives total size of string including the null char
-//size(astr);
 
 //int len = strlen(c);
 //printf("Length= %d charachters\n",len);	//This gives total length excluding the null char
-
-//int lenstr = strlen(str);
-//printf("%s\n",str);
-//printf("Size= %lu bytes\n",sizeof(str));
-//printf("Length= %d charachters\n",lenstr);
 
 len(c);
 len(str);
@@ -63,15 +76,14 @@ len(astr);
 
 
 
-//char* buff;
-//buff = print(c);
-//printf("%p\n",buff);
-//printf("%ld bytes\n",sizeof(buff));
-//printf("%ld characters\n",strlen(buff));
+//char* buff = print(astr);
+//onlyprint(buff);
 
+printf("\n");
 print(c);
 print(str);
 print(astr);
+
 
 
 
