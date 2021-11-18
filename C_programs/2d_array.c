@@ -5,7 +5,7 @@
 int main()
 {
 
-// This are two 1d arrays containing 3 integers
+// This are two 1d arrays containing 3 integers each
 //A[0]
 //A[1]
 
@@ -17,10 +17,10 @@ int (*ptr)[3] = A;
 
 // Base address printing of 1st 1-d array
 printf("%p\n",ptr);
-printf("%p\n",A);
+printf("%p\n",A);	//'A' is returning a ptr to 1-d array of 3 integers
 printf("%p\n",&A[0]);
 printf("%p\n",A[0]);
-printf("%p\n",*A);
+printf("%p\n",*A);	//'*A' is returning the ptr to an integer
 printf("%p\n",&A[0][0]);
 
 printf("========== 2nd Array ================\n");
