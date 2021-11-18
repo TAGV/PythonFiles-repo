@@ -15,6 +15,8 @@ Second_Number = float(input("Enter 2nd number = "))
 sum = (First_Number) + (Second_Number)
 print("Sum: " + str(sum))
 """
+import copy
+
 import qrcode
 
 """
@@ -1983,8 +1985,27 @@ def uniquenos(*args):
 
 uniquenos(1,2,3,4,5,5,5,5,55,6,2)
 """
+
 #QR code generator
+"""
 from qrcode import *
 
 img = qrcode.make("https://www.youtube.com/watch?v=VlJVFJtP6hM")
 img.save("Happy Diwali")
+
+"""
+
+# List representation
+
+mlist = [1,2,3]
+print(mlist)
+
+nlist = list("123abc")
+print(nlist)
+
+mlist *= 6
+print(mlist)
+print(tuple(mlist))
+
+
+

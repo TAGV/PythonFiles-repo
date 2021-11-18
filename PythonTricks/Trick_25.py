@@ -2,7 +2,7 @@
 
 mlist = [1,2,3,4,5]
 
-# Deep copy of the list
+# Assignment of the list to another list
 a = mlist
 
 #Creating a new list in place
