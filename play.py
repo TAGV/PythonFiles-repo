@@ -1996,7 +1996,7 @@ img.save("Happy Diwali")
 """
 
 # List representation
-
+"""
 mlist = [1,2,3]
 print(mlist)
 
@@ -2007,5 +2007,33 @@ mlist *= 6
 print(mlist)
 print(tuple(mlist))
 
+"""
 
+# Adding items to the List
+
+mlist = [1,2,3,4,5]
+mlist.append(10)
+mlist.append((2,4))
+mlist.append([45,54])
+
+print(mlist)
+
+# 'Extend method only takes an iterable as an argument
+nlist = [1,2,3,4,5]
+nlist.extend((2,4))
+nlist.extend([45,54])
+
+print(nlist)
+
+# Using Slicing to add elements
+
+tlist = [1,2,3,4,5]
+tlist[len(tlist):] = [4]
+tlist[len(tlist):] = (2,3)
+tlist[len(tlist):] = [10,20,30]
+tlist[:0] = [100,200]
+tlist[:0] = (300,400)
+
+print(tlist)
+#print(tlist[::-1])
 
