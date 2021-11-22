@@ -2010,7 +2010,7 @@ print(tuple(mlist))
 """
 
 # Adding items to the List
-
+"""
 mlist = [1,2,3,4,5]
 mlist.append(10)
 mlist.append((2,4))
@@ -2037,3 +2037,12 @@ tlist[:0] = (300,400)
 print(tlist)
 #print(tlist[::-1])
 
+"""
+# The below code indicates that the code snippet is a script.
+"""
+def main():
+    print("Hello, This indicates that this is a script!!!!!!")
+
+if __name__ == '__main__':
+    main()
+"""
