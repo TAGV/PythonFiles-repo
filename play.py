@@ -2046,3 +2046,15 @@ def main():
 if __name__ == '__main__':
     main()
 """
+
+# Invoking system commands
+
+import subprocess
+
+print(subprocess.run(["ls","-all"]))
+print("=====================================================================")
+print(subprocess.Popen(["git","status"]))
+print("=====================================================================")
+
+import os
+print(os.system("ls -all"))
