@@ -2048,7 +2048,7 @@ if __name__ == '__main__':
 """
 
 # Invoking system commands
-
+"""
 import subprocess
 
 print(subprocess.run(["ls","-all"]))
@@ -2058,3 +2058,18 @@ print("=====================================================================")
 
 import os
 print(os.system("ls -all"))
+
+"""
+# disassemble functions and
+# inspect their CPython VM bytecode:
+
+import dis
+
+def uniquenos(*args):
+    mlist = []
+    for num in args:
+        mlist.append(num)
+    print(list(set(mlist)))
+
+uniquenos(1,2,3,4,5,5,5,5,55,6,2)
+print(dis.dis(uniquenos))
