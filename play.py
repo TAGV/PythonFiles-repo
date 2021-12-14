@@ -2062,7 +2062,7 @@ print(os.system("ls -all"))
 """
 # disassemble functions and
 # inspect their CPython VM bytecode:
-
+"""
 import dis
 
 def uniquenos(*args):
@@ -2073,3 +2073,17 @@ def uniquenos(*args):
 
 uniquenos(1,2,3,4,5,5,5,5,55,6,2)
 print(dis.dis(uniquenos))
+
+"""
+
+# Getting System info through platform module
+
+import platform
+
+print(platform.system())
+print(platform.node())
+print(platform.release())
+print(platform.version())
+print(platform.machine())
+print(platform.processor())
+print(platform.python_version())
