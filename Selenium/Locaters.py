@@ -10,13 +10,6 @@ driver = webdriver.Firefox()
 driver.get(url)
 driver.maximize_window()
 
-
-#Forgot your password?
-#Sign up
-#//input[@name = "email"]
-#/html/body/div[2]/div/footer/div/div[2]/div[2]/a[3]
-#text-white mr-4
-#/html/body/div[2]/div/footer/div/div[2]/div[2]/a[3]
 driver.find_element(By.LINK_TEXT,"Forgot your password?").click()
 time.sleep(3)
 driver.back()
