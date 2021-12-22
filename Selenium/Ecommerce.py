@@ -32,7 +32,6 @@ for product in prod_list:
 
 
 df = pd.DataFrame(listOfProducts)
-#df.to_excel("/home/myubuntu/Desktop/Ecom_data.xlsx")
 df.to_excel("Ecommerce_data.xlsx")
 print(df)
 
