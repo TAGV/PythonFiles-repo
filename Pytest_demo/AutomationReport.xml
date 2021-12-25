@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="4" tests="20" time="73.063" timestamp="2021-12-25T23:54:44.886720" hostname="myubuntu"><testcase classname="test_InbuiltMarkers" name="test_First" time="0.001"><skipped type="pytest.skip" message="unconditional skip">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:6: unconditional skip</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_Second" time="0.000"><skipped type="pytest.skip" message="Python Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:10: Python Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_platform" time="0.003"><skipped type="pytest.skip" message="Platform Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:14: Platform Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_3" time="0.003" /><testcase classname="test_InbuiltMarkers" name="test_4" time="0.002"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Jack-10]" time="0.001" /><testcase classname="test_InbuiltMarkers" name="test_parameter[Rock-30]" time="0.002"><failure message="assert 30 in [10, 20, 40, 50]">name = 'Rock', age = 30
+
+    @pytest.mark.parametrize("name,age",
+                                [
+                                    ("Jack",10),
+                                    ("Rock",30),
+                                    ("Roger",40)
+                                ]
+                            )
+    def test_parameter(name,age):
+        print((name))
+        print((age))
+        mlist = [10,20,40,50]
+        #print(mlist[:3])
+&gt;       assert age in mlist
+E       assert 30 in [10, 20, 40, 50]
+
+test_InbuiltMarkers.py:41: AssertionError</failure></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Roger-40]" time="0.001" /><testcase classname="test_Markers" name="test_1" time="0.001" /><testcase classname="test_Markers" name="test_2" time="0.001" /><testcase classname="test_Markers" name="test_3" time="0.001" /><testcase classname="test_basics" name="test_1" time="0.001" /><testcase classname="test_basics" name="test_2" time="0.001" /><testcase classname="test_fixtures" name="test_browser" time="4.234" /><testcase classname="test_fixtures" name="test_maximize" time="0.506" /><testcase classname="test_fixtures" name="test_unit_testing" time="8.329" /><testcase classname="test_fixtures" name="test_close" time="5.869" /><testcase classname="test_parallel" name="test_site1" time="15.728" /><testcase classname="test_parallel" name="test_site2" time="15.748" /><testcase classname="test_parallel" name="test_site3" time="14.779" /></testsuite></testsuites>
