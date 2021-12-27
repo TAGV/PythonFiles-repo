@@ -2078,6 +2078,7 @@ print(dis.dis(uniquenos))
 
 # Getting System info through platform module
 
+"""
 import platform
 
 print(platform.system())
@@ -2087,3 +2088,20 @@ print(platform.version())
 print(platform.machine())
 print(platform.processor())
 print(platform.python_version())
+"""
+
+# Comprehensions
+
+#Example 1 : Creating a dictionary from a list
+#key = item
+#value = item * 2
+mydict = {num:num*2 for num in [1,2,3]}
+print(mydict)
+print(type(mydict))
+
+#Example 2 : Getting only the duplicates
+some_list = ['a','b','c','b','d','m','n','n']
+
+duplicates = list(set(num for num in some_list if some_list.count(num)>1))
+print(duplicates)
+print(type(duplicates))
