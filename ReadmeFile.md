@@ -26,14 +26,15 @@ paragraph 1
 ```python
 alert("Hello World")
 ```
+<!--Ordered List-->
+1. Apples
+2. Oranges
+3. Grapes 
 
-# 1. Apples
-# 2. Oranges
-# 3. Grapes
-
-# 1. Cars
-* Maruti
-* Honda
+<!--Unordered list-->
+* Cars
+  * Maruti
+  * Honda
 
 |  Item         |    Price      |
 |---------------|---------------|
