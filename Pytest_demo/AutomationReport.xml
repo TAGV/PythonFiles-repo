@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="4" tests="20" time="73.063" timestamp="2021-12-25T23:54:44.886720" hostname="myubuntu"><testcase classname="test_InbuiltMarkers" name="test_First" time="0.001"><skipped type="pytest.skip" message="unconditional skip">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:6: unconditional skip</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_Second" time="0.000"><skipped type="pytest.skip" message="Python Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:10: Python Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_platform" time="0.003"><skipped type="pytest.skip" message="Platform Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:14: Platform Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_3" time="0.003" /><testcase classname="test_InbuiltMarkers" name="test_4" time="0.002"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Jack-10]" time="0.001" /><testcase classname="test_InbuiltMarkers" name="test_parameter[Rock-30]" time="0.002"><failure message="assert 30 in [10, 20, 40, 50]">name = 'Rock', age = 30
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="2" skipped="4" tests="20" time="123.069" timestamp="2022-01-02T15:17:20.521379" hostname="myubuntu"><testcase classname="test_InbuiltMarkers" name="test_First" time="0.001"><skipped type="pytest.skip" message="unconditional skip">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:6: unconditional skip</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_Second" time="0.001"><skipped type="pytest.skip" message="Python Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:10: Python Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_platform" time="0.012"><skipped type="pytest.skip" message="Platform Version not Supported">/home/myubuntu/PycharmProjects/pythonProject/Pytest_demo/test_InbuiltMarkers.py:14: Platform Version not Supported</skipped></testcase><testcase classname="test_InbuiltMarkers" name="test_3" time="0.014" /><testcase classname="test_InbuiltMarkers" name="test_4" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Jack-10]" time="0.002" /><testcase classname="test_InbuiltMarkers" name="test_parameter[Rock-30]" time="0.002"><failure message="assert 30 in [10, 20, 40, 50]">name = 'Rock', age = 30
 
     @pytest.mark.parametrize("name,age",
                                 [
@@ -15,4 +15,333 @@
 &gt;       assert age in mlist
 E       assert 30 in [10, 20, 40, 50]
 
-test_InbuiltMarkers.py:41: AssertionError</failure></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Roger-40]" time="0.001" /><testcase classname="test_Markers" name="test_1" time="0.001" /><testcase classname="test_Markers" name="test_2" time="0.001" /><testcase classname="test_Markers" name="test_3" time="0.001" /><testcase classname="test_basics" name="test_1" time="0.001" /><testcase classname="test_basics" name="test_2" time="0.001" /><testcase classname="test_fixtures" name="test_browser" time="4.234" /><testcase classname="test_fixtures" name="test_maximize" time="0.506" /><testcase classname="test_fixtures" name="test_unit_testing" time="8.329" /><testcase classname="test_fixtures" name="test_close" time="5.869" /><testcase classname="test_parallel" name="test_site1" time="15.728" /><testcase classname="test_parallel" name="test_site2" time="15.748" /><testcase classname="test_parallel" name="test_site3" time="14.779" /></testsuite></testsuites>
+test_InbuiltMarkers.py:41: AssertionError</failure></testcase><testcase classname="test_InbuiltMarkers" name="test_parameter[Roger-40]" time="0.001" /><testcase classname="test_Markers" name="test_1" time="0.002" /><testcase classname="test_Markers" name="test_2" time="0.001" /><testcase classname="test_Markers" name="test_3" time="0.001" /><testcase classname="test_basics" name="test_1" time="0.001" /><testcase classname="test_basics" name="test_2" time="0.001" /><testcase classname="test_fixtures" name="test_browser" time="4.591" /><testcase classname="test_fixtures" name="test_maximize" time="0.459" /><testcase classname="test_fixtures" name="test_unit_testing" time="3.028"><failure message="selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette">unittest_comment = None
+
+    def test_unit_testing(unittest_comment):
+        print("Unit test the browser")
+        time.sleep(3)
+        action = ActionChains(driver)
+&gt;       action.send_keys(Keys.END).perform()
+
+test_fixtures.py:54: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../venv/lib/python3.9/site-packages/selenium/webdriver/common/action_chains.py:75: in perform
+    self.w3c_actions.perform()
+../venv/lib/python3.9/site-packages/selenium/webdriver/common/actions/action_builder.py:77: in perform
+    self.driver.execute(Command.W3C_ACTIONS, enc)
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:424: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f4cac14a130&gt;
+response = {'status': 500, 'value': '{"value":{"error":"unknown error","message":"Failed to decode response from marionette","stacktrace":""}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get('status', None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get('value', None)
+            if value_json and isinstance(value_json, str):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value['value']
+                    status = value.get('error', None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get('message')
+                    else:
+                        message = value.get('message', None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:
+            exception_class = NoSuchShadowRootException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if not value:
+            value = response['value']
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and 'message' in value:
+            message = value['message']
+    
+        screen = None  # type: ignore[assignment]
+        if 'screen' in value:
+            screen = value['screen']
+    
+        stacktrace = None
+        st_value = value.get('stackTrace') or value.get('stacktrace')
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split('\n')
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = self._value_or_default(frame, 'lineNumber', '')
+                        file = self._value_or_default(frame, 'fileName', '&lt;anonymous&gt;')
+                        if line:
+                            file = "%s:%s" % (file, line)
+                        meth = self._value_or_default(frame, 'methodName', '&lt;anonymous&gt;')
+                        if 'className' in frame:
+                            meth = "%s.%s" % (frame['className'], meth)
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if 'data' in value:
+                alert_text = value['data'].get('text')
+            elif 'alert' in value:
+                alert_text = value['alert'].get('text')
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.WebDriverException: Message: Failed to decode response from marionette
+
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py:247: WebDriverException</failure></testcase><testcase classname="test_fixtures" name="test_close" time="3.011" /><testcase classname="test_parallel" name="test_site1" time="73.155"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: Connection refused (os error 111)&quot;">@pytest.fixture
+    def main():
+        global driver
+        global counter
+&gt;       driver = webdriver.Firefox()
+
+test_parallel.py:16: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+../venv/lib/python3.9/site-packages/selenium/webdriver/firefox/webdriver.py:179: in __init__
+    RemoteWebDriver.__init__(
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:268: in __init__
+    self.start_session(capabilities, browser_profile)
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:359: in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py:424: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f4cabf3aca0&gt;, response = {'status': 500, 'value': '{"value":{"error":"timeout","message":"Connection refused (os error 111)","stacktrace":""}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get('status', None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get('value', None)
+            if value_json and isinstance(value_json, str):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value['value']
+                    status = value.get('error', None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get('message')
+                    else:
+                        message = value.get('message', None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:
+            exception_class = NoSuchShadowRootException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if not value:
+            value = response['value']
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and 'message' in value:
+            message = value['message']
+    
+        screen = None  # type: ignore[assignment]
+        if 'screen' in value:
+            screen = value['screen']
+    
+        stacktrace = None
+        st_value = value.get('stackTrace') or value.get('stacktrace')
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split('\n')
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = self._value_or_default(frame, 'lineNumber', '')
+                        file = self._value_or_default(frame, 'fileName', '&lt;anonymous&gt;')
+                        if line:
+                            file = "%s:%s" % (file, line)
+                        meth = self._value_or_default(frame, 'methodName', '&lt;anonymous&gt;')
+                        if 'className' in frame:
+                            meth = "%s.%s" % (frame['className'], meth)
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if 'data' in value:
+                alert_text = value['data'].get('text')
+            elif 'alert' in value:
+                alert_text = value['alert'].get('text')
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: Connection refused (os error 111)
+
+../venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py:247: TimeoutException</error></testcase><testcase classname="test_parallel" name="test_site2" time="15.484" /><testcase classname="test_parallel" name="test_site3" time="14.207" /></testsuite></testsuites>
