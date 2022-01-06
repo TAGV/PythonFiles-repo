@@ -2111,3 +2111,29 @@ print(type(duplicates))
 #Selecting Random item from list,tuple or string
 mlist = [1,2,3,4,5,6,7,8,9,10]
 print(random.choice(mlist))
+
+a = [1,2]
+b = ()
+c = {}
+d = {1,2}
+e = frozenset(a)
+
+#print(e[1])     #TypeError: 'frozenset' object is not subscriptable
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+#Unpacking
+
+dict_a = {'t':1,'n':2,'m':6,'z':100}
+print(*dict_a) #Print all keys
+print(list(dict_a)) #Print list of all keys
+
+# Builtin-Namespace
+
+namespace = dir(__builtins__)
+for name in namespace:
+    print(name)
