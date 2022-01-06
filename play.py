@@ -16,6 +16,7 @@ sum = (First_Number) + (Second_Number)
 print("Sum: " + str(sum))
 """
 import copy
+import random
 
 import qrcode
 
@@ -2091,7 +2092,7 @@ print(platform.python_version())
 """
 
 # Comprehensions
-
+"""
 #Example 1 : Creating a dictionary from a list
 #key = item
 #value = item * 2
@@ -2105,3 +2106,8 @@ some_list = ['a','b','c','b','d','m','n','n']
 duplicates = list(set(num for num in some_list if some_list.count(num)>1))
 print(duplicates)
 print(type(duplicates))
+"""
+
+#Selecting Random item from list,tuple or string
+mlist = [1,2,3,4,5,6,7,8,9,10]
+print(random.choice(mlist))
