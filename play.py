@@ -2107,7 +2107,7 @@ duplicates = list(set(num for num in some_list if some_list.count(num)>1))
 print(duplicates)
 print(type(duplicates))
 """
-
+"""
 #Selecting Random item from list,tuple or string
 mlist = [1,2,3,4,5,6,7,8,9,10]
 print(random.choice(mlist))
@@ -2137,3 +2137,28 @@ print(list(dict_a)) #Print list of all keys
 namespace = dir(__builtins__)
 for name in namespace:
     print(name)
+"""
+#Eliminating repeating charcters from a string
+
+string = 'Indiaismycountry'
+
+mydict = {}
+
+#Finding repeating char:
+for character in string:
+    mydict.setdefault(character,0)
+    mydict[character] += 1
+print(mydict)
+
+#Creating the elimination list
+elimination_list = []
+for k,v in mydict.items():
+    if v > 1:
+        elimination_list.append(k)
+
+print(elimination_list)
+
+# Printing final non-repeating charcters
+for ch in string:
+    if ch not in elimination_list:
+        print(ch,end=' ')
