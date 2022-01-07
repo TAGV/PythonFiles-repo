@@ -1,9 +1,9 @@
 words = [
-    "Ferrari","Acura", "Ford", "Ferrari", "Honda", "Nissan","Datsun"
+    "reroari","Acura", "Ford", "Ferrari", "Honda", "Nissan","Datsun"
 ]
 
 letters = [
-    "a", "f", "r", "r", "e", "i", "o", "h", "c", "s", "u", "w", "a", "n", "d",
+    "a", "f", "r", "r", "e", "i", "o", "h", "c", "s", "u", "w", "a", "n", "d"
 ]
 
 
@@ -12,27 +12,27 @@ def charCount(word):
     dict = {}
     for i in word:
         dict[i] = dict.get(i, 0) + 1
-    #print(dict)
     return dict
 
 
 def possible_words(lwords, charSet):
     for word in lwords:
-        #print(word)
+
         flag = 1
         chars = charCount(word) # Created a dictionary of the word
-        #print(chars)
 
-        for key in chars:       # Iterate over a single dictionary
-            if key.lower() not in charSet: # Ignore the case
-                flag = 0
+        for key in (chars):                                                                      # Iterate over a each word dictionary
+            if (key.lower() in charSet) and (chars[key] <= charSet.count(key.lower())):          # Ignore the case and check if letter is present
+                flag = 1
             else:
-                #print("Count of letters : ",charSet.count(key))
-                #print(chars[key])
-                if charSet.count(key) != chars[key]:
-                    flag = 1
+                flag = 0
+                break
+
         if flag == 1:
-            print(word)
+            print(word+" = Spelled")
+        else:
+            print(word+" = Not Spelled")
+
 
 
 possible_words(words, letters)
