@@ -6,12 +6,15 @@ letters = [
     "a", "f", "r", "r", "e", "i", "o", "h", "c", "s", "u", "w", "a", "n", "d",  # noqa
 ]
 
-def charCount(word):
-    dict = {}
-    for i in word:
-        dict[i] = dict.get(i, 0) + 1
-    return dict
-#word_dictionary = {}
+# Creation of dictionary of "word characters" from the word.
+def createWordDict(word):
+    word_dict = {}
+    for char in word:
+        if char in word_dict:
+            word_dict[char] = word_dict[char] + 1
+        else:
+            word_dict[char] = 1
+    return word_dict
 
 def can_it_be_spelled(word_list,letter_list):
     """
@@ -24,17 +27,18 @@ def can_it_be_spelled(word_list,letter_list):
     # Loop to check for each word in the given word list
     for word in word_list:
 
+        # Create a temporary variable for evaluation of the word
         flag = 1
 
         # Create a dictionary of each word from the "words" list
-        word_dictionary = charCount(word)
+        word_dictionary = createWordDict(word)
 
         # Iterate over a each word in the word dictionary(using the key)
         # Condition 1 : Ignore the case and check if letter is present in the list of letters
         # Condition 2 : Check if value of each letter in dictionary is less than equal to
         #               frequency of the corresponding letter in letter list
 
-        for key in (word_dictionary):
+        for key in word_dictionary:
             if (key.lower() in letter_list) and (word_dictionary[key] <= letter_list.count(key.lower())):
                 flag = 1
             else:
@@ -58,3 +62,16 @@ if __name__ == "__main__":
     between words, but may only be used once within a word.
     """
     can_it_be_spelled(words,letters)
+
+
+
+# Output
+"""
+Acura = Spelled
+Ford = Spelled
+Ferrari = Not Spelled
+Honda = Spelled
+Nissan = Not Spelled
+Datsun = Not Spelled
+
+"""
