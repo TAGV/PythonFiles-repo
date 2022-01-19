@@ -1,0 +1,18 @@
+total 292
+drwxrwxr-x  2 myubuntu myubuntu   4096 Jan 19 23:56 .
+drwxrwxr-x 33 myubuntu myubuntu   4096 Jan 17 23:03 ..
+-rw-rw-r--  1 myubuntu myubuntu   5347 Jan 11 23:12 Automation.xlsx
+-rw-rw-r--  1 myubuntu myubuntu    344 Nov 20 22:26 Blockchain_demo.py
+-rw-rw-r--  1 myubuntu myubuntu  84145 Nov  3 16:52 file_walk.txt
+-rwxrwxr--  1 myubuntu myubuntu 142254 Oct 11 22:04 IMG.jpg
+-rw-rw-r--  1 myubuntu myubuntu    850 Nov 19 21:38 Numpy_demo.py
+-rw-rw-r--  1 myubuntu myubuntu    821 Nov 24 00:38 opencv_demo.py
+-rw-rw-r--  1 myubuntu myubuntu   1581 Nov 30 15:46 OPengl_demo.py
+-rw-rw-r--  1 myubuntu myubuntu   1626 Jan 11 23:12 OpenPyXL_demo.py
+-rw-rw-r--  1 myubuntu myubuntu    721 Nov  3 00:03 OS_demo.py
+-rw-rw-r--  1 myubuntu myubuntu   6125 Nov 26 00:45 Pandas_demo.py
+-rw-rw-r--  1 myubuntu myubuntu    386 Dec  8 23:46 PDF_demo.py
+-rw-rw-r--  1 myubuntu myubuntu   7148 Jan 11 23:12 Report.xlsx
+-rw-rw-r--  1 myubuntu myubuntu      0 Jan 19 23:56 shell_commands.txt
+-rw-rw-r--  1 myubuntu myubuntu   1302 Jan 19 23:56 Subprocess_demo.py
+-rw-rw-r--  1 myubuntu myubuntu    682 Nov 16 23:46 Sys_Demo.py
