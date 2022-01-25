@@ -143,6 +143,7 @@ print(new_string)
 
 # Printing the nos without comma at the end
 
+"""
 ## 1st Method
 mlist = [1,2,3,4,5]
 nlist = []
@@ -161,3 +162,87 @@ for temp in mlist:
         print(temp,end='')
     else:
         print(temp,end=',')
+"""
+
+#Checking if number is Prime Nos
+
+"""
+while True:
+    num_in = int(input("Enter number greater than 1 "))
+    if num_in <= 1 :
+        continue
+    else:
+        break
+
+flag = 0
+
+if (num_in > 1):
+    for num in range(2,num_in):
+        if (num_in % num) == 0:
+            flag = 1
+            print(f'{num},"times",{num_in//num},"is",{num_in}')
+            break
+
+if flag == 1:
+    print("Not Prime")
+else:
+    print("Prime")
+
+"""
+
+#Getting the range of Prime Nos
+
+"""
+def CheckPrime(num_in):
+    flag = 0
+    if (num_in > 1):
+        for num in range(2, num_in):
+            if (num_in % num) == 0:
+                flag = 1
+                break
+    return flag
+
+
+num_range = int(input("Enter the end range to find prime nos "))
+
+counter = 0
+for num in range(2,num_range+1):
+    check = CheckPrime(num)
+    if check == 1:
+        continue
+    else:
+        print(num,end=' ')
+        counter += 1
+
+print()
+print(counter)
+
+"""
+
+# Getting the first N prime nos
+
+def CheckPrime(num_in):
+    flag = 1
+    if (num_in > 1):
+        for num in range(2, num_in):
+            if (num_in % num) == 0:
+                flag = 0
+                break
+    return flag
+
+
+counter = int(input("Enter the number of Primes you want ? "))
+
+first_count = 0
+number = 2
+
+while first_count < counter:
+    if(CheckPrime(number)):
+        print(number,end=' ')
+        first_count += 1
+    number += 1
+
+
+
+
+
