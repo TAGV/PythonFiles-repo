@@ -220,7 +220,7 @@ print(counter)
 """
 
 # Getting the first N prime nos
-
+"""
 def CheckPrime(num_in):
     flag = 1
     if (num_in > 1):
@@ -242,7 +242,32 @@ while first_count < counter:
         first_count += 1
     number += 1
 
+"""
+# Getting primes within a range
 
+def CheckPrime(num_in):
+    flag = 1
+    if (num_in == 0) or (num_in == 1):
+        flag = 0
+        return flag
+
+    for num in range(2, num_in):
+        if (num_in % num) == 0:
+            flag = 0
+            break
+    return flag
+
+
+first_no = int(input("Enter the starting no range : "))
+second_no = int(input("Enter the ending no range : "))
+
+counter = 0
+for num in range(first_no,second_no+1):
+    if(CheckPrime(num)):
+        print(num,end=' ')
+        counter +=1
+
+print("\nNo of primes in given range = ",counter)
 
 
 
