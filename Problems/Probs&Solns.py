@@ -269,5 +269,19 @@ for num in range(first_no,second_no+1):
 
 print("\nNo of primes in given range = ",counter)
 
-
+#Implementing the split() method
+mstring = "This#is#day"
+def myfunc(inp,sep):
+    mlist = []
+    start=end=0
+    for i in inp[start:]:
+        x = inp.find(sep,start)
+        if x == -1:
+            mlist.append(inp[start:])
+            break
+        mlist.append(inp[start:x])
+        start = x+1
+    print(mlist)
+    
+myfunc(mstring,"#")
 
